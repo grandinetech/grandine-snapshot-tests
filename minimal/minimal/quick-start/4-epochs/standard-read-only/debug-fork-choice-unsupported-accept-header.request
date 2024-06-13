@@ -1,5 +1,5 @@
 GET /eth/v1/debug/fork_choice HTTP/1.0
-Accept: application/json
+Accept: application/octet-stream
 Content-Type: application/json
 Content-Length: 0
 
