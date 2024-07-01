@@ -1,6 +1,6 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 59271
+content-length: 58840
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -27,10 +27,10 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
         },
         "latest_block_header": {
           "slot": "40",
-          "proposer_index": "59",
+          "proposer_index": "15",
           "parent_root": "0xf89095da17fee7e3bfacd717e20e9bc5ce56b0d1bc3d640a485ad47cf3aeac6d",
           "state_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
-          "body_root": "0xa862f97abcd7d52295a793e481f7e374d3a696ce603293daf1018a6042fdc62e"
+          "body_root": "0x7e885b81eaa8b69f37a3c86d8410a232a9ab9cef6e84fefa7304e249f9251eb5"
         },
         "block_roots": [
           "0xc9a3323b6c59a7374e60501768ff4b47e4603a837c9ed42634bb5a6d6be58b6e",
@@ -876,7 +876,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
           "32006607514",
           "32004829868",
           "32005176448",
-          "32005176448",
+          "32005227552",
           "32006607514",
           "32006607514",
           "32008038580",
@@ -920,7 +920,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
           "32004829868",
           "32006607514",
           "32005176448",
-          "32005227552",
+          "32005176448",
           "32006260934",
           "32005176448",
           "32004829868",
@@ -932,7 +932,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
           "0x1b78f014a3f2d0dad19adaab2a330978ac43c91601aefa8975965b23896e5f71",
           "0xb81ae96be96912cc4fa38d4c6f4e8112bdfcbd3adbcc6b87b16f4648ac6769d5",
           "0xd4a91bc26f8f1b2ed33ca859d3540339f3647bfca9700d6a379bfcb14f86ba1e",
-          "0xeea7267f444f62d60fe203e4220f17414981d95aaf99970dacff19925e232067",
+          "0x9f49c7b09309c622e0378f9a38db32dc7ac5e96267dd669546cce8955fc10f7b",
           "0x4242424242424242424242424242424242424242424242424242424242424242",
           "0x4242424242424242424242424242424242424242424242424242424242424242",
           "0x4242424242424242424242424242424242424242424242424242424242424242",
@@ -1361,13 +1361,14 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
           "withdrawals_root": "0x28ba1834a3a7b657460ce79fa3a1d909ab8828fd557659d4d0554a9bdbc0ec30",
           "blob_gas_used": "0",
           "excess_blob_gas": "0",
-          "deposit_receipts_root": "0x28ba1834a3a7b657460ce79fa3a1d909ab8828fd557659d4d0554a9bdbc0ec30",
-          "withdrawal_requests_root": "0x7a0501f5957bdf9cb3a8ff4966f02265f968658b7a9c62642cba1165e86642f5"
+          "deposit_requests_root": "0x28ba1834a3a7b657460ce79fa3a1d909ab8828fd557659d4d0554a9bdbc0ec30",
+          "withdrawal_requests_root": "0x7a0501f5957bdf9cb3a8ff4966f02265f968658b7a9c62642cba1165e86642f5",
+          "consolidation_requests_root": "0xf5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b"
         },
         "next_withdrawal_index": "0",
         "next_withdrawal_validator_index": "16",
         "historical_summaries": [],
-        "deposit_receipts_start_index": "18446744073709551615",
+        "deposit_requests_start_index": "18446744073709551615",
         "deposit_balance_to_consume": "0",
         "exit_balance_to_consume": "64000000000",
         "earliest_exit_epoch": "6",
@@ -1469,11 +1470,11 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "PublishBeaconBlock": {
         "message": {
           "slot": "40",
-          "proposer_index": "59",
+          "proposer_index": "15",
           "parent_root": "0xf89095da17fee7e3bfacd717e20e9bc5ce56b0d1bc3d640a485ad47cf3aeac6d",
-          "state_root": "0xa4386ef2a94fb2f7822f243aef3a2b705e48e575b42f047b44fbed6e1d781e53",
+          "state_root": "0x1695e8f0be4776afedff5537ba63af0ba5f56da60e0a50230b4ef849c1499bfb",
           "body": {
-            "randao_reveal": "0x91a8c9abc3af7cdd61d964075c159cb6583b5231b976d7a96ddfe98795f279999fc6077c232861e3973dae5b027f860f19ddf241fb7b084821a251e33b45c5a54f2ed6e5b5e4d9695372e3fd4d516941cbd7c4b1f09d7edc3a72a0005ddd6ac7",
+            "randao_reveal": "0xa661a3ad1af2710e59fcc2a0d2bb5b98a4f288ad56c8e65398f75f596a18d5255022d36efaa6a6318907183883c64c5b08a634ce5ffd39bccb87db2e5fcd5f8be53f0d12870b54611fe2753626e2a987cafd29e47ea791529e80a20a3ac127c3",
             "eth1_data": {
               "deposit_root": "0x6141b76179b67d7849f34a22d0e529729fb274bbe81374c41623373b649cc63b",
               "deposit_count": "64",
@@ -1507,15 +1508,15 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
               "withdrawals": [],
               "blob_gas_used": "0",
               "excess_blob_gas": "0",
-              "deposit_receipts": [],
-              "withdrawal_requests": []
+              "deposit_requests": [],
+              "withdrawal_requests": [],
+              "consolidation_requests": []
             },
             "bls_to_execution_changes": [],
-            "blob_kzg_commitments": [],
-            "consolidations": []
+            "blob_kzg_commitments": []
           }
         },
-        "signature": "0xb647946ed7b5443b784944648eb796375883cd98167c1d5730408723d6ff4323b7822aa1e0e010519bdea5ebcafe97aa19fe415707dc9fbcd5fe3b5a91d1ef73871af06f5f6e98c13b69f62d1b42125e16473cb9f7d3c0fa69d1cd212931c170"
+        "signature": "0xa4186f7fec3dcb76f8a94483486d191ad0de91ad89b84a40196c9394149a2caf4adec3a5a8695da92739485563352eb1000275c3360f5977eaf8db474535304b44335431743ce929e092a638acc51cceb135d7533a7b0162c72c5719205c3a04"
       }
     }
   ]
