@@ -6,7 +6,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
 {
   "data": [
     {
-      "root": "0xf08d707385918a9eacdbb8abe7948a830c39cde030c29e6a185a5bbdf66baabf",
+      "root": "0x77a253825764099e6004297b41ebc6ce5d32c984e0a353e3902c418111b20001",
       "slot": "64",
       "execution_optimistic": true
     }
