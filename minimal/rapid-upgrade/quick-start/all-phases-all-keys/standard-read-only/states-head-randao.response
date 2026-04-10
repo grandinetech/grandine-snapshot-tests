@@ -5,7 +5,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
   "data": {
-    "randao": "0xc52fd0eecc8854e15d84f30c844ee5d7e09105ec56ebf1b785a93b3b6d3df73a"
+    "randao": "0x4882aa25e92c75b9f7fc8c86f246ca24de49c43e987f48db9d9ca658cd0aff4f"
   },
   "execution_optimistic": true,
   "finalized": false

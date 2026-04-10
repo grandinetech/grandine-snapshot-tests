@@ -1,18 +1,9 @@
-HTTP/1.0 200 OK
+HTTP/1.0 500 Internal Server Error
 content-type: application/json
-content-length: 218
+content-length: 109
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
-  "data": [
-    {
-      "pubkey": "0xa99a76ed7796f7be22d5b7e85deeb7c5677e88e511e0b337618f8c4eb61349b4bf2d153f649f7b53359fe8b94a38e44c",
-      "validator_index": "0",
-      "validator_sync_committee_indices": [
-        "5",
-        "15"
-      ]
-    }
-  ],
-  "execution_optimistic": true
+  "code": 500,
+  "message": "internal error: epoch is too far in the future (requested_epoch: 16, store_epoch: 8)"
 }
