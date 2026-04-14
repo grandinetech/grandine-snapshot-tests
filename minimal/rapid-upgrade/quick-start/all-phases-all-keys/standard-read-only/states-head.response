@@ -1,7 +1,7 @@
 HTTP/1.0 200 OK
 content-type: application/json
 eth-consensus-version: gloas
-content-length: 52304
+content-length: 52599
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -17,9 +17,9 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "latest_block_header": {
       "slot": "64",
       "proposer_index": "54",
-      "parent_root": "0xc148eb73d96e2c4fb45ae065a94a8ddc5e50e2c2f45cde50a18cf6340ff8db96",
+      "parent_root": "0xdf2445f3ca775e0343831be6045ee4867430bfa5bf6ca18fab911ffb55b38cc8",
       "state_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "body_root": "0xdeaba697b6611890b4ba8c7fe7e272f3144b30a8c9c2807515a9fd8a9122fc5e"
+      "body_root": "0x87e486074701c8c2e6ddf80bc61cd822e10b345d970d12885de6add108e88ae2"
     },
     "block_roots": [
       "0xc9a3323b6c59a7374e60501768ff4b47e4603a837c9ed42634bb5a6d6be58b6e",
@@ -78,14 +78,14 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "0x11855eb2e1285f941c4b710cf47dc15895086dcd00d06a9037c4e7efe8a32010",
       "0x04827fbf75160b1b1128ac7b0be015230926de3cfe65a63175cb3218f6739b5d",
       "0x886cacddd90361fd1e1aae27a735bdc0ea38aed6ca6716d8211f24aa9c372785",
-      "0x3752be5e9b66d9d78e0145cec24566672a78f0fc91306d6e4148fe3d93bf0455",
-      "0xeb61aebba7b6944486460594d3de39cadc1b224164a662c7449f3a30ade4af03",
-      "0xec9824aae7748dfa48743c0f89db32e75c8748919c7cd97196219b177dd02295",
-      "0xff0610358265563a4c96f4cc6b7887d7d556ea20c3fdd4830bd23c3392095476",
-      "0x41eedf3fa83eff33a8bf23447abeefd7fbabbc8de137440fe0edf31507b6ef19",
-      "0xafc057265665ea66d332820035b9912a9990b9581a1aeca24e7305a448f3180d",
-      "0x2fb820c2462e8c7daa82a8a3d66c604139f3cc430949b7c351b49383ccc0aac7",
-      "0xc148eb73d96e2c4fb45ae065a94a8ddc5e50e2c2f45cde50a18cf6340ff8db96"
+      "0xea7e85b4973218559dd3dfcf045780f3ed166dbccf24bec0ca3d501a7dd79aed",
+      "0x967034ec20e980f327f9b17fc451f171a722e611a5bc87fedf7427ca75cc6bc2",
+      "0xe1cf32747d196b1e383956897ad5efff12c8c712174ab0784b179d508382d49e",
+      "0xdf5011d7301de3929ecb42cc58e044a134b2ee262cd7895477254bb07bf3eeb8",
+      "0x2f39e42a9b56b84f8325ee0263253da932a273349d6b721f3fd92296fe0b2347",
+      "0x39f2b6ff060f5072705ceee4ceaf878dbfef8fb22a37679363d7c24ad34d3ae0",
+      "0x4989032ef41d6b688b22ae00c0ebb6757d93932adbd24b98f0d322e3334a6dc2",
+      "0xdf2445f3ca775e0343831be6045ee4867430bfa5bf6ca18fab911ffb55b38cc8"
     ],
     "state_roots": [
       "0xa2544f0d7987e40315335e67f66ce6d275a9b69134ef03ab7fa850a271030944",
@@ -144,14 +144,14 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "0xeb306a83d22fc34d0942e38e86e3c0cab7e946c70e9a9d1a54717e2af54da5d2",
       "0x769f863136b374b8db75e68cb9b99d6cb6fb6a959514b8c5e11efba2f50c91a2",
       "0x6c8157835573742f8d19ec6d3796078683851f4e1fdb8e5755b18bead6519be0",
-      "0xbebf06e1401bab2f23c9cf22309962676fe2387133fa2d31b5f79856833296d4",
-      "0x1de4b6f26c57f99f0a3a057b152c98aae0bd8544561ae55dadc6b06d56bdd3b0",
-      "0x0cb404aa3a5da5d0cd76e977c7070d8a86d90d2395338e1b9d358a6d6f2ab806",
-      "0x330107b332a269013bf4ad9383c068d1d7303187733715bc383e58eae20a35b8",
-      "0xb7ed3dbdb57012342142c6cf3d5fc52756712cdf7a3ef3a1f6c9d7731dc2fafd",
-      "0xf6125ed42a5a7d739c57e043b6c85227b0b61dd57e953aa1fedb27b6752c2752",
-      "0x66eeb702bb34f36494501197d199a8cc222facae158f02f2eb6b16c4df5a63b8",
-      "0x599f0183dcd8747b94ea3fb9744e2992772d438646f730279e1335bc13dd81be"
+      "0x609f066d6fbdf6863c671335df11ba051d19890e1bea65e28bc2a5054a93fe6b",
+      "0x6b58465dde0d440126462f0d9a1e201190b488b61c569472b66bc0d64c353dd8",
+      "0x0ae34959c12e74c4824ceeb7accd840c835090a9cf04db5a8f944361486574fa",
+      "0x039cb49db42a25b807ba81ac72796a077e069ae0560cb0f5070ea77492d6c9f9",
+      "0xd0291e6cbfc087054eccae292012250c90192240c6c283ceaa9adc2e300dd2db",
+      "0x6e4b5a419631ef0461bd1e5039590497e97c162392482389cecf15a0bda3b6e0",
+      "0xa51d56bcabcb77b21b91685b24d20235e6fbacceebf70abbe3e2f7c7fa577055",
+      "0xf6804d5503faf876a39f475f43cfad763eb0b43b84c5eb33decc1404b1c66e9c"
     ],
     "historical_roots": [],
     "eth1_data": {
@@ -1146,7 +1146,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     "current_justified_checkpoint": {
       "epoch": "7",
-      "root": "0x3752be5e9b66d9d78e0145cec24566672a78f0fc91306d6e4148fe3d93bf0455"
+      "root": "0xea7e85b4973218559dd3dfcf045780f3ed166dbccf24bec0ca3d501a7dd79aed"
     },
     "finalized_checkpoint": {
       "epoch": "6",
@@ -1294,7 +1294,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     "latest_execution_payload_bid": {
       "parent_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "parent_block_root": "0xc148eb73d96e2c4fb45ae065a94a8ddc5e50e2c2f45cde50a18cf6340ff8db96",
+      "parent_block_root": "0xdf2445f3ca775e0343831be6045ee4867430bfa5bf6ca18fab911ffb55b38cc8",
       "block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
       "prev_randao": "0x4882aa25e92c75b9f7fc8c86f246ca24de49c43e987f48db9d9ca658cd0aff4f",
       "fee_recipient": "0x0000000000000000000000000000000000000000",
@@ -1309,8 +1309,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "next_withdrawal_validator_index": "16",
     "historical_summaries": [
       {
-        "block_summary_root": "0xfe7e3f6b548dee964bcbdc6d4a776805ec55d2b6d1a35d57efbd0a81f227f973",
-        "state_summary_root": "0xc3fe31930bed1b5881e4d7f7e3e3031e50da0fc80569a58678ee8013707de278"
+        "block_summary_root": "0x8fd064318bace8fffd47784238eedf0ba5ecffa78ef8fa0844c3db5d7788ad40",
+        "state_summary_root": "0x237f491d36c571d111c7e9b0bdae0e4d7323af6d707c59f11b8ed9e3ca1795d7"
       }
     ],
     "deposit_requests_start_index": "18446744073709551615",
@@ -1475,7 +1475,105 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     ],
     "builder_pending_withdrawals": [],
     "latest_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "payload_expected_withdrawals": []
+    "payload_expected_withdrawals": [],
+    "ptc_window": [
+      [
+        "34",
+        "5"
+      ],
+      [
+        "1",
+        "32"
+      ],
+      [
+        "4",
+        "24"
+      ],
+      [
+        "29",
+        "12"
+      ],
+      [
+        "53",
+        "52"
+      ],
+      [
+        "48",
+        "20"
+      ],
+      [
+        "16",
+        "17"
+      ],
+      [
+        "37",
+        "28"
+      ],
+      [
+        "15",
+        "37"
+      ],
+      [
+        "6",
+        "11"
+      ],
+      [
+        "2",
+        "63"
+      ],
+      [
+        "34",
+        "61"
+      ],
+      [
+        "56",
+        "36"
+      ],
+      [
+        "40",
+        "20"
+      ],
+      [
+        "9",
+        "7"
+      ],
+      [
+        "51",
+        "29"
+      ],
+      [
+        "53",
+        "36"
+      ],
+      [
+        "62",
+        "62"
+      ],
+      [
+        "26",
+        "42"
+      ],
+      [
+        "1",
+        "28"
+      ],
+      [
+        "31",
+        "38"
+      ],
+      [
+        "55",
+        "13"
+      ],
+      [
+        "29",
+        "59"
+      ],
+      [
+        "43",
+        "43"
+      ]
+    ]
   },
   "version": "gloas",
   "execution_optimistic": true,
