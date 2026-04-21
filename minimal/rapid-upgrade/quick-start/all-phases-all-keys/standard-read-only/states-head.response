@@ -1,7 +1,7 @@
 HTTP/1.0 200 OK
 content-type: application/json
 eth-consensus-version: gloas
-content-length: 52599
+content-length: 52693
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -17,9 +17,9 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "latest_block_header": {
       "slot": "64",
       "proposer_index": "54",
-      "parent_root": "0xdf2445f3ca775e0343831be6045ee4867430bfa5bf6ca18fab911ffb55b38cc8",
+      "parent_root": "0xb9050918690e713f91735399dad95cdc49e79acd0ac86f8ce80817e48b156682",
       "state_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "body_root": "0x87e486074701c8c2e6ddf80bc61cd822e10b345d970d12885de6add108e88ae2"
+      "body_root": "0xa8ecf86c2be6f5671abdca848c021c443ebf69cb79b09650f7ee20f195923f60"
     },
     "block_roots": [
       "0xc9a3323b6c59a7374e60501768ff4b47e4603a837c9ed42634bb5a6d6be58b6e",
@@ -78,14 +78,14 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "0x11855eb2e1285f941c4b710cf47dc15895086dcd00d06a9037c4e7efe8a32010",
       "0x04827fbf75160b1b1128ac7b0be015230926de3cfe65a63175cb3218f6739b5d",
       "0x886cacddd90361fd1e1aae27a735bdc0ea38aed6ca6716d8211f24aa9c372785",
-      "0xea7e85b4973218559dd3dfcf045780f3ed166dbccf24bec0ca3d501a7dd79aed",
-      "0x967034ec20e980f327f9b17fc451f171a722e611a5bc87fedf7427ca75cc6bc2",
-      "0xe1cf32747d196b1e383956897ad5efff12c8c712174ab0784b179d508382d49e",
-      "0xdf5011d7301de3929ecb42cc58e044a134b2ee262cd7895477254bb07bf3eeb8",
-      "0x2f39e42a9b56b84f8325ee0263253da932a273349d6b721f3fd92296fe0b2347",
-      "0x39f2b6ff060f5072705ceee4ceaf878dbfef8fb22a37679363d7c24ad34d3ae0",
-      "0x4989032ef41d6b688b22ae00c0ebb6757d93932adbd24b98f0d322e3334a6dc2",
-      "0xdf2445f3ca775e0343831be6045ee4867430bfa5bf6ca18fab911ffb55b38cc8"
+      "0x1b1d43ff03f80245aa29b819560fd91a3147d5c43c9121384647ae7cf321926d",
+      "0xf16b25fe6b39f0879c17c4d2fb619d68b6e7fa8574534c372727d591044d5158",
+      "0xa71693d51f54e8f694be275f7de25a708d7f5682637ebb458c1ec6d3910d4abd",
+      "0x2946eec568a704c9fbb33a8f16e3d6c58dfa93d1df55e9e2cbc44f477849f65a",
+      "0x830d9881d789b4e1a9307fb7ec72c0c642e10797733c976ade35f8e91e6e6d27",
+      "0x65e246bceac7cca80479cad63b9e99de08120411cf7c11679736edeca20e1d13",
+      "0x2724c50c26d16705e93e7bf0553498ddee422a5ef4b6fa1dc006e65b7faba690",
+      "0xb9050918690e713f91735399dad95cdc49e79acd0ac86f8ce80817e48b156682"
     ],
     "state_roots": [
       "0xa2544f0d7987e40315335e67f66ce6d275a9b69134ef03ab7fa850a271030944",
@@ -144,14 +144,14 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "0xeb306a83d22fc34d0942e38e86e3c0cab7e946c70e9a9d1a54717e2af54da5d2",
       "0x769f863136b374b8db75e68cb9b99d6cb6fb6a959514b8c5e11efba2f50c91a2",
       "0x6c8157835573742f8d19ec6d3796078683851f4e1fdb8e5755b18bead6519be0",
-      "0x609f066d6fbdf6863c671335df11ba051d19890e1bea65e28bc2a5054a93fe6b",
-      "0x6b58465dde0d440126462f0d9a1e201190b488b61c569472b66bc0d64c353dd8",
-      "0x0ae34959c12e74c4824ceeb7accd840c835090a9cf04db5a8f944361486574fa",
-      "0x039cb49db42a25b807ba81ac72796a077e069ae0560cb0f5070ea77492d6c9f9",
-      "0xd0291e6cbfc087054eccae292012250c90192240c6c283ceaa9adc2e300dd2db",
-      "0x6e4b5a419631ef0461bd1e5039590497e97c162392482389cecf15a0bda3b6e0",
-      "0xa51d56bcabcb77b21b91685b24d20235e6fbacceebf70abbe3e2f7c7fa577055",
-      "0xf6804d5503faf876a39f475f43cfad763eb0b43b84c5eb33decc1404b1c66e9c"
+      "0x99e6565ba1c328e018d0a6c277a01f523caf886be329a634d0871e97281f850a",
+      "0x6dd7996e91b27f85d289f6f5c74f7c4a3264b790933cea5b1b03d5afd45b7bc2",
+      "0x26680f1a56e0a80cec65dd315668026d1c4062d2918c203c869a78f07c2852ed",
+      "0x056672df40a54605abdcda094e0531eea9b9277bf4126a3296c8b3fbc5ae39f3",
+      "0xecad1ec87f1542ea49c10b3fd7b0cadd9bc7b3828b92bfa4dabe4ab461e9f316",
+      "0x6cc3c054068af650f9fdc96accab9b40f1f9f523b5e548ee9134a25452027b06",
+      "0xa0e5a4ace98af67db1eb513f845ce3bb7ccc07742f4d9a123d6422241124024d",
+      "0x2f2da5047f21626d661923d2973a94cc1f54a6b7596b735cbcc977afd5b2a265"
     ],
     "historical_roots": [],
     "eth1_data": {
@@ -1146,7 +1146,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     "current_justified_checkpoint": {
       "epoch": "7",
-      "root": "0xea7e85b4973218559dd3dfcf045780f3ed166dbccf24bec0ca3d501a7dd79aed"
+      "root": "0x1b1d43ff03f80245aa29b819560fd91a3147d5c43c9121384647ae7cf321926d"
     },
     "finalized_checkpoint": {
       "epoch": "6",
@@ -1292,25 +1292,13 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       ],
       "aggregate_pubkey": "0xab018cae4ab8de2cb2b91ae10fa8948c9bbd6982aa259e1781827ba04e0983574c3c69a9bbc4a0d0248a1335e9215e84"
     },
-    "latest_execution_payload_bid": {
-      "parent_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "parent_block_root": "0xdf2445f3ca775e0343831be6045ee4867430bfa5bf6ca18fab911ffb55b38cc8",
-      "block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "prev_randao": "0x4882aa25e92c75b9f7fc8c86f246ca24de49c43e987f48db9d9ca658cd0aff4f",
-      "fee_recipient": "0x0000000000000000000000000000000000000000",
-      "gas_limit": "0",
-      "builder_index": "18446744073709551615",
-      "slot": "64",
-      "value": "0",
-      "execution_payment": "0",
-      "blob_kzg_commitments": []
-    },
+    "latest_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "next_withdrawal_index": "0",
-    "next_withdrawal_validator_index": "16",
+    "next_withdrawal_validator_index": "0",
     "historical_summaries": [
       {
-        "block_summary_root": "0x8fd064318bace8fffd47784238eedf0ba5ecffa78ef8fa0844c3db5d7788ad40",
-        "state_summary_root": "0x237f491d36c571d111c7e9b0bdae0e4d7323af6d707c59f11b8ed9e3ca1795d7"
+        "block_summary_root": "0xa0a659476f935dec328ed734d24de5710dae6a365ea9a90b1f04853764796a25",
+        "state_summary_root": "0x8741dec9b09b0abb82f4afc09d7c201815e32692cbbe863815c4e344979c5a9f"
       }
     ],
     "deposit_requests_start_index": "18446744073709551615",
@@ -1474,7 +1462,20 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       }
     ],
     "builder_pending_withdrawals": [],
-    "latest_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "latest_execution_payload_bid": {
+      "parent_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "parent_block_root": "0xb9050918690e713f91735399dad95cdc49e79acd0ac86f8ce80817e48b156682",
+      "block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "prev_randao": "0x4882aa25e92c75b9f7fc8c86f246ca24de49c43e987f48db9d9ca658cd0aff4f",
+      "fee_recipient": "0x0000000000000000000000000000000000000000",
+      "gas_limit": "0",
+      "builder_index": "18446744073709551615",
+      "slot": "64",
+      "value": "0",
+      "execution_payment": "0",
+      "blob_kzg_commitments": [],
+      "execution_requests_root": "0x85e253b40599d0df756be043ea6949e49a07e756deef72b3588a4b05362206b5"
+    },
     "payload_expected_withdrawals": [],
     "ptc_window": [
       [

@@ -1,7 +1,7 @@
 HTTP/1.0 200 OK
 content-type: application/json
 eth-consensus-version: gloas
-content-length: 2801
+content-length: 2977
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -9,8 +9,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "message": {
       "slot": "64",
       "proposer_index": "54",
-      "parent_root": "0xdf2445f3ca775e0343831be6045ee4867430bfa5bf6ca18fab911ffb55b38cc8",
-      "state_root": "0x2289e450f2618db0ad644692a70b0f8cf21a8af55db614ef2089329894877c98",
+      "parent_root": "0xb9050918690e713f91735399dad95cdc49e79acd0ac86f8ce80817e48b156682",
+      "state_root": "0x77b9c6e629d8fbc692476654d126e1b0703c0f872065410a53f80559a479eeb2",
       "body": {
         "randao_reveal": "0xb5c6b4b7d05f9e8ae27acfbe654a34af05bb1395c59fb54bee6b7bc18b5889c3ab9ebac12e6eebdfb9fe80e5355dad6c0c1b852177bfad2665087fcc7ef8dd02b58c6c2748d39d79eeddac810401bcb63e9a45cfbcb04832b154eb93d208db85",
         "eth1_data": {
@@ -27,17 +27,17 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
             "data": {
               "slot": "63",
               "index": "0",
-              "beacon_block_root": "0xdf2445f3ca775e0343831be6045ee4867430bfa5bf6ca18fab911ffb55b38cc8",
+              "beacon_block_root": "0xb9050918690e713f91735399dad95cdc49e79acd0ac86f8ce80817e48b156682",
               "source": {
                 "epoch": "6",
                 "root": "0xdb6cfd97bc45e00aa01d13952f786248aa9766de3d58933e4d5c2e62f672adfa"
               },
               "target": {
                 "epoch": "7",
-                "root": "0xea7e85b4973218559dd3dfcf045780f3ed166dbccf24bec0ca3d501a7dd79aed"
+                "root": "0x1b1d43ff03f80245aa29b819560fd91a3147d5c43c9121384647ae7cf321926d"
               }
             },
-            "signature": "0xaf5cee770c658324c8972a2f8d6ba742f22f5bb1229de2248b517572164ffa66c41dc682fee960b9db7051ccaa8282e21332b3cfde8f1359de9194566153dd31f4a21c5074515cd21220cec92689f85eacbe93dac63d889c1399c3f4356a1a30",
+            "signature": "0xaf52d525d15b36acf5bba8f3b16f66cd30064adcf32693ec2ab78a87064999751ccd27e65ac3a01d3dce69acc784ff8f1420835d955c2f7936f0cc18e9d20f731c807c09007b4abd30949f44179143cfed60691c9c5d554c0e4248a3bc671e91",
             "committee_bits": "0x03"
           }
         ],
@@ -45,13 +45,13 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
         "voluntary_exits": [],
         "sync_aggregate": {
           "sync_committee_bits": "0xffffffff",
-          "sync_committee_signature": "0xa8f46c3a1f48f719b90f2d6b99e61eaa98cfaa60c7b92c12288812ebd29be2eb6bcdeb8acc6857996a381e7a9756e7950749540d148f1f10f318ade7828e1afc9384e2e51dbb48772a1d045ad76c3ac8aba2ff0271ec685ebcf7be7f515a7c69"
+          "sync_committee_signature": "0xa2604ca2c9ec86cc5c87d67c447437fee226d9f3a7729831ce316d14984019a1175efc32ef21dfb90ec754d67f4cf25e101e08844f774ba640d13cc243820dd1dd5206cce35aa28cfb32552d443ae694fa269f2351d474344d4dff5c2b01ae93"
         },
         "bls_to_execution_changes": [],
         "signed_execution_payload_bid": {
           "message": {
             "parent_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "parent_block_root": "0xdf2445f3ca775e0343831be6045ee4867430bfa5bf6ca18fab911ffb55b38cc8",
+            "parent_block_root": "0xb9050918690e713f91735399dad95cdc49e79acd0ac86f8ce80817e48b156682",
             "block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
             "prev_randao": "0x4882aa25e92c75b9f7fc8c86f246ca24de49c43e987f48db9d9ca658cd0aff4f",
             "fee_recipient": "0x0000000000000000000000000000000000000000",
@@ -60,14 +60,20 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
             "slot": "64",
             "value": "0",
             "execution_payment": "0",
-            "blob_kzg_commitments": []
+            "blob_kzg_commitments": [],
+            "execution_requests_root": "0x85e253b40599d0df756be043ea6949e49a07e756deef72b3588a4b05362206b5"
           },
           "signature": "0xc00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
         },
-        "payload_attestations": []
+        "payload_attestations": [],
+        "parent_execution_requests": {
+          "deposits": [],
+          "withdrawals": [],
+          "consolidations": []
+        }
       }
     },
-    "signature": "0xad758ac616da76a9e13dd752d3dc39af57b6dc0f165fb3aed6497f13f99601741c965d30c407ddb606d9e2719db777a012d4b387c7f8d847022da8aeebe7fbe2d0c5a931078a23369152dd3bae3fb2d4044de76a6ef101762b331f7ff7dd1f5d"
+    "signature": "0x88da9371d13b8b49679ae6b3fefac20294ee4be1825e647ecfe9402f7f327ca4d7144a6503e90acd4ee10103e7f1a63e0fca1f83901bbba834cfff9ca19e51981ded2cfe8215b7841b6fe1945ad4a9130fd933a25b4bff99a08c6f58cd397564"
   },
   "version": "gloas",
   "execution_optimistic": true,

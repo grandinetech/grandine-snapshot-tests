@@ -11,7 +11,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     "current_justified": {
       "epoch": "7",
-      "root": "0xea7e85b4973218559dd3dfcf045780f3ed166dbccf24bec0ca3d501a7dd79aed"
+      "root": "0x1b1d43ff03f80245aa29b819560fd91a3147d5c43c9121384647ae7cf321926d"
     },
     "finalized": {
       "epoch": "6",
