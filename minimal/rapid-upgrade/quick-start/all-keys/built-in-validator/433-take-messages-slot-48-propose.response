@@ -1,6 +1,6 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 3586
+content-length: 9208
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -24,6 +24,171 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
   "validator_to_p2p": [
     {
       "UpdateDataColumnSubnets": 64
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "49",
+          "validator_index": "48",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0xb3c0dae2ca799beb565fa6b76bd3a3174d04029c42e4ab12c67563d34f82f4467378f0b2d7859594a851724932138cbc05b77d22876bb01fc7fe34fc9d5884ea734290696808d56e8b614361132e54db7cadac10a394a61a312b6fcc19b20779"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "50",
+          "validator_index": "25",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0x9282b24dbd22bf66e62ed5b538476addd40fb7ba27749e799f743abb2e5ab50e737e4ffc49b2cd2393bd5c2c0e80411c00f1bca5acc1ff4cb0d9ac05b1c39fd5c67a4ffdeeebfbfa2c08628c0c0fc42e92993c2e7293fc6dc35f905169bd8659"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "51",
+          "validator_index": "5",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0xa10dcaafa169479d2012a73da69c922e28f24612136a12336adb8f968cfc411046cd4639276990e7b74911254570a56312395baf89c56b287d2e1dda2b03e8282786d2144ee810e09e2efefec969e2a74a1d20f92e4ed56fde2373207829d222"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "52",
+          "validator_index": "4",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0xa678bde473d836ac7b827e068ec2938bed358b658e398506afeb1fc45a4891b26060862077b227cdbe6b9806dc9f98d205b2a765775c6a7877dbe395beceaec2fd5dd8cc69999456e447b67933f92d6a4ddf31e20866a4bd22a24470fb23d28f"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "53",
+          "validator_index": "23",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0x908b90e3fe211327501746325b7e25f0e49309825e5affb377dbf272e59bce9018fe6bc7e7133cccd9c6efbb56dd1b1006fbc6af01c99e9c38b4b0800c20b788ee2ca700b62cb8ccc0c9fafc0e76ccdfcf7338f63048c3f815b8e7604412014b"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "54",
+          "validator_index": "38",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0xb54fb21cdb3b2e22c5498ea4ffa36e987fd543bf1c2d3da49ab9b670d0e6d01b5da84e2038078b0e2d5de89b307948ac19b3f14a838f4d7c3bea52eb6a9516a1e9b97c18c7a23deb3551ac6a8e27bcef2eea40a0a4dceb2d5b13b9ee59dcecd9"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "55",
+          "validator_index": "14",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0x98a20157997399084bfa5a0c44e72b13056c41d1b0d7233602f3442a80999cfb1bf15b5939d26de15f7175f36f8162af06bdcae455d1a0292d9b6258558463605bceeb3c7e1dc866b50d17a58a6b0b8c224170b2335724ca6ea0fd715e9751a9"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "56",
+          "validator_index": "2",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0xa268f8ce9b97264d928854714ec91bee5dbe28c262f901557e266d20540dece4d197def40e01e390d268d619ba2900fe04d8548e8f60207d3f8e99b44b929f4c220dcec72b9d052301953b7bb29d6eb4547dc01c11128aaf32d1c1933ac6706e"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "57",
+          "validator_index": "10",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0x8b446d7e1e4e7cd4961ed22b5fb8e5064d9b055d231993c7c7bf76c03c2263d3d31147f4e85e226730a278a880f4a5aa088397897c2a2d86a48b833413b5bbdc0a31b4bd44b109c512674a98045e3c236a90f53f1841bd43d191a26487503622"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "58",
+          "validator_index": "58",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0xaf1eab4a01e3f3ae3e4c2b2f5633d2fb6ff99b46db8d0d992c7a9d318a8c28e6fc824ff285440140b5185604347ca3f515acaba7d6af6d058169f8301b09a8320fcf7635baea552c5e6a2e49fa589a4cf7313a0c8031a7244b738df9b2f3c955"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "59",
+          "validator_index": "10",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0xa72e0ace2d9703df33cbab1e4763bd894a3c3948631d0696f5c4f95b83239cdb89be96866091aa133050d457d96cbd5e166c867d621201107c5efb453465943a5886e423f0e4aeafa59390902a0343834bae96a3731c6c8749e816e50ec77a0c"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "60",
+          "validator_index": "38",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0x829926a72197df2e39b15377960aa08fa57275e69a4a89bf08cf9b3a05eeb2b07da093e241feabca30b2a2b7cfe056c919c668450244ea0290a21400f3dc129a4a28d5d4eb3af3c1b70a0fba6c7091c92582942e2efd35a8edcc78268e606959"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "61",
+          "validator_index": "43",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0x81fcdc7815f93b532811e70facb48f0b81e3e4782f750eb75c89b5dcff6ece73bd96bb1514179669da00c1fe17cd72e909622720cd312bd188a3aa0b0a923825619820cff702ca5c2a17c3a03bc98b14fd851846c8d15da4539fd7c2f29f56f3"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "62",
+          "validator_index": "17",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0xab8ce8667a20786b97e95955c13994e2b01f34dd8e9e24e5eb4880ad8b24d895ec7ac65bd33112485fb2bfae2381fd12136dcc4861b8b3d3c41a7ad2711a0fcf1622f26ddd4c29de83c6edf5df298d3228ad86fc15adaf245e4ff3363b93a56d"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "proposal_slot": "63",
+          "validator_index": "50",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "gas_limit": "0"
+        },
+        "signature": "0xa046c82cee00bf5105ca5c9719d469672f50e2b92b5b46a37b040a1e3c123a1388caa6a5c093243681ed9c491d9eb66e0732b9086456d43fe4032b17c6913caa56afd16e0ba0cae4f1d3326d24c3187796053752fb95dd4b10b20411f66fedf4"
+      }
     },
     {
       "PublishBeaconBlock": {
