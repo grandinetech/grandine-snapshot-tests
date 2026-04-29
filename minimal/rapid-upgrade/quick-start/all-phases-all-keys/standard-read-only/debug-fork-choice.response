@@ -6,7 +6,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
 {
   "justified_checkpoint": {
     "epoch": "7",
-    "root": "0x1b1d43ff03f80245aa29b819560fd91a3147d5c43c9121384647ae7cf321926d"
+    "root": "0xda6d00afeb06fd9d1b96d0a1faaae2afa8bec780e50af49cac1d5421f47d89ee"
   },
   "finalized_checkpoint": {
     "epoch": "6",
@@ -85,7 +85,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "56",
-      "block_root": "0x1b1d43ff03f80245aa29b819560fd91a3147d5c43c9121384647ae7cf321926d",
+      "block_root": "0xda6d00afeb06fd9d1b96d0a1faaae2afa8bec780e50af49cac1d5421f47d89ee",
       "parent_root": "0x886cacddd90361fd1e1aae27a735bdc0ea38aed6ca6716d8211f24aa9c372785",
       "justified_epoch": "6",
       "finalized_epoch": "5",
@@ -95,8 +95,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "57",
-      "block_root": "0xf16b25fe6b39f0879c17c4d2fb619d68b6e7fa8574534c372727d591044d5158",
-      "parent_root": "0x1b1d43ff03f80245aa29b819560fd91a3147d5c43c9121384647ae7cf321926d",
+      "block_root": "0xa3b4cc08a878c1c80efbe31e9cc81609ac783412c360273088e88eb0cd50743e",
+      "parent_root": "0xda6d00afeb06fd9d1b96d0a1faaae2afa8bec780e50af49cac1d5421f47d89ee",
       "justified_epoch": "6",
       "finalized_epoch": "5",
       "weight": "1792000000000",
@@ -105,8 +105,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "58",
-      "block_root": "0xa71693d51f54e8f694be275f7de25a708d7f5682637ebb458c1ec6d3910d4abd",
-      "parent_root": "0xf16b25fe6b39f0879c17c4d2fb619d68b6e7fa8574534c372727d591044d5158",
+      "block_root": "0x016d1a1ae80f3085242a481226257f338001dd9dbc5191470baa5ef1e3de4ccd",
+      "parent_root": "0xa3b4cc08a878c1c80efbe31e9cc81609ac783412c360273088e88eb0cd50743e",
       "justified_epoch": "6",
       "finalized_epoch": "5",
       "weight": "1536000000000",
@@ -115,8 +115,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "59",
-      "block_root": "0x2946eec568a704c9fbb33a8f16e3d6c58dfa93d1df55e9e2cbc44f477849f65a",
-      "parent_root": "0xa71693d51f54e8f694be275f7de25a708d7f5682637ebb458c1ec6d3910d4abd",
+      "block_root": "0x0f0419d862b140dea20ba613ffc223279e226d311dffe172c4ae58fda2cb736c",
+      "parent_root": "0x016d1a1ae80f3085242a481226257f338001dd9dbc5191470baa5ef1e3de4ccd",
       "justified_epoch": "6",
       "finalized_epoch": "5",
       "weight": "1280000000000",
@@ -125,8 +125,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "60",
-      "block_root": "0x830d9881d789b4e1a9307fb7ec72c0c642e10797733c976ade35f8e91e6e6d27",
-      "parent_root": "0x2946eec568a704c9fbb33a8f16e3d6c58dfa93d1df55e9e2cbc44f477849f65a",
+      "block_root": "0x87ec85a1e2c99ada5e2f9f082b9e6f5ebce418c73719d8ccb5d3ab11120bca0c",
+      "parent_root": "0x0f0419d862b140dea20ba613ffc223279e226d311dffe172c4ae58fda2cb736c",
       "justified_epoch": "6",
       "finalized_epoch": "5",
       "weight": "1024000000000",
@@ -135,8 +135,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "61",
-      "block_root": "0x65e246bceac7cca80479cad63b9e99de08120411cf7c11679736edeca20e1d13",
-      "parent_root": "0x830d9881d789b4e1a9307fb7ec72c0c642e10797733c976ade35f8e91e6e6d27",
+      "block_root": "0xcb275ce6423b9310ea9b3ef730346ed163df3e9460ca8d5aa65a37a884b47ec3",
+      "parent_root": "0x87ec85a1e2c99ada5e2f9f082b9e6f5ebce418c73719d8ccb5d3ab11120bca0c",
       "justified_epoch": "6",
       "finalized_epoch": "5",
       "weight": "768000000000",
@@ -145,8 +145,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "62",
-      "block_root": "0x2724c50c26d16705e93e7bf0553498ddee422a5ef4b6fa1dc006e65b7faba690",
-      "parent_root": "0x65e246bceac7cca80479cad63b9e99de08120411cf7c11679736edeca20e1d13",
+      "block_root": "0xaaef544f95ff1ee45304942e70484636b88754ea28343c688762e90f0b4c7a65",
+      "parent_root": "0xcb275ce6423b9310ea9b3ef730346ed163df3e9460ca8d5aa65a37a884b47ec3",
       "justified_epoch": "6",
       "finalized_epoch": "5",
       "weight": "512000000000",
@@ -155,8 +155,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "63",
-      "block_root": "0xb9050918690e713f91735399dad95cdc49e79acd0ac86f8ce80817e48b156682",
-      "parent_root": "0x2724c50c26d16705e93e7bf0553498ddee422a5ef4b6fa1dc006e65b7faba690",
+      "block_root": "0xbbb65308a6b749d956556da89b716f3dd4cdd6b05cf02780810f9386088208e2",
+      "parent_root": "0xaaef544f95ff1ee45304942e70484636b88754ea28343c688762e90f0b4c7a65",
       "justified_epoch": "6",
       "finalized_epoch": "5",
       "weight": "256000000000",
@@ -165,8 +165,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     },
     {
       "slot": "64",
-      "block_root": "0x723127708fb96d2432264f12a4c79046b45f9b88b69a937ea26569529cae95fc",
-      "parent_root": "0xb9050918690e713f91735399dad95cdc49e79acd0ac86f8ce80817e48b156682",
+      "block_root": "0x0b9389c03a3673b37a9046c27d22bf45e16380052038d12021ea9732b3454d6b",
+      "parent_root": "0xbbb65308a6b749d956556da89b716f3dd4cdd6b05cf02780810f9386088208e2",
       "justified_epoch": "7",
       "finalized_epoch": "6",
       "weight": "0",

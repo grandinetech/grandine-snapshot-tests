@@ -1,6 +1,6 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 9208
+content-length: 10513
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -28,166 +28,181 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0x59f3a94aa69cdf75a0aec8f48a7fe572bbb4fc9a44a56234b442f5bc1e40fa68",
           "proposal_slot": "49",
           "validator_index": "48",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0xb3c0dae2ca799beb565fa6b76bd3a3174d04029c42e4ab12c67563d34f82f4467378f0b2d7859594a851724932138cbc05b77d22876bb01fc7fe34fc9d5884ea734290696808d56e8b614361132e54db7cadac10a394a61a312b6fcc19b20779"
+        "signature": "0x8c61b182693248eba20d94e583b5490fcdf96d8a3c40f630dad271a8823fd5b7c021a6055ec1f3303e7069cd611e7a900f89005734931f8d28d2c0a671f8f0057f61eadbfc147843e7b2036cd6c0b0c0528bf852b89335ca270e2d7d250dc402"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0x59f3a94aa69cdf75a0aec8f48a7fe572bbb4fc9a44a56234b442f5bc1e40fa68",
           "proposal_slot": "50",
           "validator_index": "25",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0x9282b24dbd22bf66e62ed5b538476addd40fb7ba27749e799f743abb2e5ab50e737e4ffc49b2cd2393bd5c2c0e80411c00f1bca5acc1ff4cb0d9ac05b1c39fd5c67a4ffdeeebfbfa2c08628c0c0fc42e92993c2e7293fc6dc35f905169bd8659"
+        "signature": "0xaada0f0d398bb7464db5ba80154c543f70cee7eb2ca96b2ca16ea2a5d901b9a0d5557cfed17cf5c223601a3b75818f04165c259a9c9fdef7772a820ff6df737b0220415bde5a5b1fef12e65ae6196bbbcfcf5bb4b1c9ee90676a762d22d4c9e8"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0x59f3a94aa69cdf75a0aec8f48a7fe572bbb4fc9a44a56234b442f5bc1e40fa68",
           "proposal_slot": "51",
           "validator_index": "5",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0xa10dcaafa169479d2012a73da69c922e28f24612136a12336adb8f968cfc411046cd4639276990e7b74911254570a56312395baf89c56b287d2e1dda2b03e8282786d2144ee810e09e2efefec969e2a74a1d20f92e4ed56fde2373207829d222"
+        "signature": "0x835a8b9225ae321ba5bcc1487770a39d44ece2b08ce074e2b4bc3197a8946aefd6e6ddd531956a2fcd25ec299f1bb58e018c57f36e76c88bf547ccb79256d174388d28d4c19861f04945f68c20287a8ffad37c55b6e02198455e8a0c58492ade"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0x59f3a94aa69cdf75a0aec8f48a7fe572bbb4fc9a44a56234b442f5bc1e40fa68",
           "proposal_slot": "52",
           "validator_index": "4",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0xa678bde473d836ac7b827e068ec2938bed358b658e398506afeb1fc45a4891b26060862077b227cdbe6b9806dc9f98d205b2a765775c6a7877dbe395beceaec2fd5dd8cc69999456e447b67933f92d6a4ddf31e20866a4bd22a24470fb23d28f"
+        "signature": "0x952b1fc321468050a1f9bb5043ba10e9ca1fbe6bc27a2cdd2aa736f6d61a79b0c2ced30a1df2c5e733a9176eb406d79107c134929599eb216ea1ec1a651caf2cfee56351650ef51aad75e98d0cada6050ee3e83e4c588cd2a3fa2581d394d29c"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0x59f3a94aa69cdf75a0aec8f48a7fe572bbb4fc9a44a56234b442f5bc1e40fa68",
           "proposal_slot": "53",
           "validator_index": "23",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0x908b90e3fe211327501746325b7e25f0e49309825e5affb377dbf272e59bce9018fe6bc7e7133cccd9c6efbb56dd1b1006fbc6af01c99e9c38b4b0800c20b788ee2ca700b62cb8ccc0c9fafc0e76ccdfcf7338f63048c3f815b8e7604412014b"
+        "signature": "0x80086ff7527b3ae2dd6cf60412862eafb686a9ba46b0397933d66acc79bef94c69c714f8d15ebc31e989e3858d9e814719fc3de08f770ab229062340c01f647499dad3f6b6e1dd1da46fbae8fdcafc704d84b8f51a3379a724fb0f6528a819c2"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0x59f3a94aa69cdf75a0aec8f48a7fe572bbb4fc9a44a56234b442f5bc1e40fa68",
           "proposal_slot": "54",
           "validator_index": "38",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0xb54fb21cdb3b2e22c5498ea4ffa36e987fd543bf1c2d3da49ab9b670d0e6d01b5da84e2038078b0e2d5de89b307948ac19b3f14a838f4d7c3bea52eb6a9516a1e9b97c18c7a23deb3551ac6a8e27bcef2eea40a0a4dceb2d5b13b9ee59dcecd9"
+        "signature": "0xa52241c3f853d57c7bbd97c0c75457ef39a401928c7057adb15fff6afce115716cf07bc7fe26841d47dffa788fdbd60a17cfd8a0972f73081be2172ede6ac31eec278a3ef488bfd37640a87e209a83dfefa8e7e5ece350a44b839b5ecad39cce"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0x59f3a94aa69cdf75a0aec8f48a7fe572bbb4fc9a44a56234b442f5bc1e40fa68",
           "proposal_slot": "55",
           "validator_index": "14",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0x98a20157997399084bfa5a0c44e72b13056c41d1b0d7233602f3442a80999cfb1bf15b5939d26de15f7175f36f8162af06bdcae455d1a0292d9b6258558463605bceeb3c7e1dc866b50d17a58a6b0b8c224170b2335724ca6ea0fd715e9751a9"
+        "signature": "0x96393c58a7e6083f972775f8863fb0cdcce97bd585969992e20f0a9972f5054b41fbd5bdf12d20cea841dfa6807cc8f10f508fe70a01fc265d4eb306a4ca0382a0458a7d46345ffa8016524bf04e925bcf47f9ae88919f19b9a0a386a420909e"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0xbab20039a9f9b3500b963c93de1faa0b5cea408a083382126519b16194f36f93",
           "proposal_slot": "56",
           "validator_index": "2",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0xa268f8ce9b97264d928854714ec91bee5dbe28c262f901557e266d20540dece4d197def40e01e390d268d619ba2900fe04d8548e8f60207d3f8e99b44b929f4c220dcec72b9d052301953b7bb29d6eb4547dc01c11128aaf32d1c1933ac6706e"
+        "signature": "0xab66824238d6559c8ecef166b414f1a89698b5029cf5a9d715ef315c07a8f4add23390251fc9479c646f759ea0b180a405ec909f6f9a4004bc4318672388f3df6b8ea81b8980518d44b9b688e81dfc2d28dfce796e4690f2dc31e3ce1d03be8d"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0xbab20039a9f9b3500b963c93de1faa0b5cea408a083382126519b16194f36f93",
           "proposal_slot": "57",
           "validator_index": "10",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0x8b446d7e1e4e7cd4961ed22b5fb8e5064d9b055d231993c7c7bf76c03c2263d3d31147f4e85e226730a278a880f4a5aa088397897c2a2d86a48b833413b5bbdc0a31b4bd44b109c512674a98045e3c236a90f53f1841bd43d191a26487503622"
+        "signature": "0x8dd47ecb34899cff698c670495073b89481e97575093d0874c7b47307e9735cd73dccf81db5690f8eae85d3f2ebdc7830a7d75e6b7ef8b131333c5925641e416bac044cbeaf30bac3501323b4ce1da97b9bf1fe0cab6c18f205bd51788e30cb9"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0xbab20039a9f9b3500b963c93de1faa0b5cea408a083382126519b16194f36f93",
           "proposal_slot": "58",
           "validator_index": "58",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0xaf1eab4a01e3f3ae3e4c2b2f5633d2fb6ff99b46db8d0d992c7a9d318a8c28e6fc824ff285440140b5185604347ca3f515acaba7d6af6d058169f8301b09a8320fcf7635baea552c5e6a2e49fa589a4cf7313a0c8031a7244b738df9b2f3c955"
+        "signature": "0xb5a3a96213b7f6a80d4bc6730437f2f15b743361c565515229cac6517643542b2c19f3c2d07ab41354bc8adda777bc670ffc776f550e928aa21af85a48f79bdccdede804ccd721ceeb0086f345042bc4bb165d270080bd3bf69d3287a57e896b"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0xbab20039a9f9b3500b963c93de1faa0b5cea408a083382126519b16194f36f93",
           "proposal_slot": "59",
           "validator_index": "10",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0xa72e0ace2d9703df33cbab1e4763bd894a3c3948631d0696f5c4f95b83239cdb89be96866091aa133050d457d96cbd5e166c867d621201107c5efb453465943a5886e423f0e4aeafa59390902a0343834bae96a3731c6c8749e816e50ec77a0c"
+        "signature": "0xae9477fbe5731a0f4c537dbbb6adfd134dd29f2668f577598425ae1b544fb32e8fd1a803c867de88cc8c24b6231948cd007a3db519ad20b99e3906cd6bf63f846955b7b8a306c71638801639a69ad1f840b21d14162d5a739f3bc02efcbc2862"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0xbab20039a9f9b3500b963c93de1faa0b5cea408a083382126519b16194f36f93",
           "proposal_slot": "60",
           "validator_index": "38",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0x829926a72197df2e39b15377960aa08fa57275e69a4a89bf08cf9b3a05eeb2b07da093e241feabca30b2a2b7cfe056c919c668450244ea0290a21400f3dc129a4a28d5d4eb3af3c1b70a0fba6c7091c92582942e2efd35a8edcc78268e606959"
+        "signature": "0x963a99ace926f3aad313243cec55334efbea571143b3fc2fca5e08eb55fc8aacd7085a53abc75badc83fafda068ec199174590892b6a453ec03dbcddc91c9dd3b0f087971a49ab709fd14e80ae2ffb9e0c55b57298d1e2d8a4d1b8723b1b95b5"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0xbab20039a9f9b3500b963c93de1faa0b5cea408a083382126519b16194f36f93",
           "proposal_slot": "61",
           "validator_index": "43",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0x81fcdc7815f93b532811e70facb48f0b81e3e4782f750eb75c89b5dcff6ece73bd96bb1514179669da00c1fe17cd72e909622720cd312bd188a3aa0b0a923825619820cff702ca5c2a17c3a03bc98b14fd851846c8d15da4539fd7c2f29f56f3"
+        "signature": "0x86841c9fa02b41349095dd93e23eb8b6a6ee3df58d5a7c45c0e9bab46f1294e0af175cfd5b0381f3cde4d4a95943f146193347e4f5c3e98438bcbabe059a0858e79c6348fcbf42a541b18f8afd0772bd4aed88512f5dc20acfb2cef8892caf50"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0xbab20039a9f9b3500b963c93de1faa0b5cea408a083382126519b16194f36f93",
           "proposal_slot": "62",
           "validator_index": "17",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0xab8ce8667a20786b97e95955c13994e2b01f34dd8e9e24e5eb4880ad8b24d895ec7ac65bd33112485fb2bfae2381fd12136dcc4861b8b3d3c41a7ad2711a0fcf1622f26ddd4c29de83c6edf5df298d3228ad86fc15adaf245e4ff3363b93a56d"
+        "signature": "0xb47eb1a4ff323ae11dd31c884ed81c15d6679b7d76edf78f35efca99b86f8a3b608265ca46547887b4945eccbdeb21f0152abef68aae8e85332cc90551fa98cc45ddd9c7e9572ad4dd5b9e6161af4dbbcdb8fc9cd16eade6dc18da51e096ae3a"
       }
     },
     {
       "PublishProposerPreferences": {
         "message": {
+          "checkpoint_root": "0xbab20039a9f9b3500b963c93de1faa0b5cea408a083382126519b16194f36f93",
           "proposal_slot": "63",
           "validator_index": "50",
           "fee_recipient": "0x0000000000000000000000000000000000000000",
           "gas_limit": "0"
         },
-        "signature": "0xa046c82cee00bf5105ca5c9719d469672f50e2b92b5b46a37b040a1e3c123a1388caa6a5c093243681ed9c491d9eb66e0732b9086456d43fe4032b17c6913caa56afd16e0ba0cae4f1d3326d24c3187796053752fb95dd4b10b20411f66fedf4"
+        "signature": "0xa14f84082ef735a69d0222846d8ed072244c5f732376a31bcf9871fd22618490e6710dfc863e0e2ab64c1d53017732c818e4a25c956485a98787f12d9b4019fdfd73ffa617ca705cd5a6b2c1157e3d33065df661b95d24227f17076d1ea6bf88"
       }
     },
     {
