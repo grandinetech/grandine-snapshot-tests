@@ -1,6 +1,6 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 7379
+content-length: 7404
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -116,6 +116,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "SYNC_MESSAGE_DUE_BPS_GLOAS": "2500",
     "CONTRIBUTION_DUE_BPS_GLOAS": "5000",
     "PAYLOAD_ATTESTATION_DUE_BPS": "7500",
+    "PAYLOAD_DUE_BPS": "7500",
     "CHURN_LIMIT_QUOTIENT": "32",
     "CHURN_LIMIT_QUOTIENT_GLOAS": "16",
     "CONSOLIDATION_CHURN_LIMIT_QUOTIENT": "32",
