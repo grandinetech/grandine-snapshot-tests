@@ -1,6 +1,6 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 4165
+content-length: 11182
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -16,7 +16,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       }
     },
     {
-      "HeadChanged": "0xddc0a6baf42fb56a9b757d0cdb536bec99fae4cd322f4bf4cd9501e74cabd3c6"
+      "HeadChanged": "0x6c5215f87d0b89e494facdc6cc78163a3461734df7f43290be83b3a6cef1f41c"
     }
   ],
   "fc_to_sync": [],
@@ -26,12 +26,192 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "UpdateDataColumnSubnets": 64
     },
     {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0x65346f88ead5c2ee6ebd820b6da7546e5013d63329e2d5e8e3ca7c819f7a520c",
+          "proposal_slot": "49",
+          "validator_index": "48",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0xa8f8d0aca75eb5c47ff30bef0840c545fc978644ccf7e12978bfa4ab027b009db5cb704b93aaac4e7dd6a4e35fb975ec14bdefa1b2d5714839fbfc5b25aef9973e76f642dcffa2b4085fd5dfb82e8ff97173e388379ac6375cc7a8a7214821f1"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0x65346f88ead5c2ee6ebd820b6da7546e5013d63329e2d5e8e3ca7c819f7a520c",
+          "proposal_slot": "50",
+          "validator_index": "25",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0x8fd362db98257ef7cd92348e1491ea1e61709e7ccf054304df2df3ef49e5a7820f5135cea90fefbc667d06860b0c16ca0969bcab937ca303512324ab9cd598aa2cebb42b0a2b8f384b2f5d67b569da6fc3c96493d34c2f35b109bc0e122bfeac"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0x65346f88ead5c2ee6ebd820b6da7546e5013d63329e2d5e8e3ca7c819f7a520c",
+          "proposal_slot": "51",
+          "validator_index": "5",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0xa5609183815e9b9c2e72dd7484548c6b53938707a428648134586236fbe0be9fc455749aaeab6126ec75c02e35ba532914c1c863c69d08696eb162418b95f39a8abb5c4d288950561d2fe10d973fe915d7ac69f5cfd65d703df7bd89c51dde44"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0x65346f88ead5c2ee6ebd820b6da7546e5013d63329e2d5e8e3ca7c819f7a520c",
+          "proposal_slot": "52",
+          "validator_index": "4",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0xa30965f9d28a018a72e8b32e3e95de2f4118fafd1cbc7578b68e061768cb2a34e5862f6cc9e0a961f957c92749fd99290782fe8b825c140cb202fb3afe1efb6e53493503edcd632c8f5fb239affc338940fb202a4ab098d4b4d505d5628cc69d"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0x65346f88ead5c2ee6ebd820b6da7546e5013d63329e2d5e8e3ca7c819f7a520c",
+          "proposal_slot": "53",
+          "validator_index": "23",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0xab9e95180a9fa7d84c4cd067b9e053a6eca40db6b560a83794d268dda9c6572b77dd8a75a077f23724bc2a8ef438a4ae12c0d9aad33cd5e81acafdc3b6ffd6535f1fe0c4afaa282d3caac4717f3548367b18e75f96112dd29869177b246873cc"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0x65346f88ead5c2ee6ebd820b6da7546e5013d63329e2d5e8e3ca7c819f7a520c",
+          "proposal_slot": "54",
+          "validator_index": "38",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0x92c69d05c8b48a547ee41c4231263ced8977a59b2076a38b5a0cbb96a6b95c07f75de89fef8f09c6a723fce2a579a2da040fe34194dea75a41b24df39261ee4bd97fcd71148066b7bec6a3ba382ff055f2e9ae67ca69d5720c53d6290656756c"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0x65346f88ead5c2ee6ebd820b6da7546e5013d63329e2d5e8e3ca7c819f7a520c",
+          "proposal_slot": "55",
+          "validator_index": "14",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0x971898e166e5fd7159777032a3f4102cd398232f65700b1edbab2fb698ee3c801a57e65d4e160d05c3af7dcf8ecf22a0058191ac4342d659417dc9a735322c531338a17f8fdbb115bc279fea5b2435593f744d0c401265ac54eadadd3a3b89df"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0xc9cd43f78c9da1ebf4d68384610a8d111c4a60e0b7e7b5c855ef90eb9347727f",
+          "proposal_slot": "56",
+          "validator_index": "2",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0xb30ba385a872e23162a0f8bfa0fbed8beaf22dfab8bad74c6c49993d25bb55b9c3591738d7bb8552709ab426e4648d251392a7c58df7e0f8511968e9f3d9267a1019760980ddfdec85c8a27e2b7a299d8a9b927b9dd96376443fbdbd2b1e8add"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0xc9cd43f78c9da1ebf4d68384610a8d111c4a60e0b7e7b5c855ef90eb9347727f",
+          "proposal_slot": "57",
+          "validator_index": "10",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0x99d6860899aaa6c90d37af1cd15cdd8dd82c223e9d0c64d9c26da935f302385e979b49a76195c362ffa1bceb0533980c141fec6fc0b2010768141c3e50eda1e1083deea8b86d7fb4f5e3ad5dc91ea24881ec9c06e59d47cb83a2393136babe2c"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0xc9cd43f78c9da1ebf4d68384610a8d111c4a60e0b7e7b5c855ef90eb9347727f",
+          "proposal_slot": "58",
+          "validator_index": "58",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0x99ec00f2e4d8a1213186689522f36c576048cec2a071ad0786f2f3786dd0a64a027b2e9bc0147a79e620b76c930e073f1508de1392b0743f73439676297d4a0c2250f8f88812edb5b43d47a30f40fba23587eae38d2737b3cac799ee08c70978"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0xc9cd43f78c9da1ebf4d68384610a8d111c4a60e0b7e7b5c855ef90eb9347727f",
+          "proposal_slot": "59",
+          "validator_index": "10",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0xb049bb32a164afe6c4416f1c76088c9b79f6e2764d9f38f461cbfcde9663289bad9efd59fbb72a3f19cf003325ad8bf90750128d2f9ccf7918c29999c1bf215a2511bf87d8cb06af75bdfd42b01284d062f4b1e13e13bb131fb5c30eb16f03a2"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0xc9cd43f78c9da1ebf4d68384610a8d111c4a60e0b7e7b5c855ef90eb9347727f",
+          "proposal_slot": "60",
+          "validator_index": "38",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0x8303f4f1fda8bfa68532a9573261ee9c84617d683fadc2eeaef5c70b42c7fe49e54a1966aaa810eb10d6db9c2db870e70c3d9112581f65fe837ce94e4edfafe6714d75042455ecc97761516a845a841b3874e2802a9efd4cc200aa5f6d22feaf"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0xc9cd43f78c9da1ebf4d68384610a8d111c4a60e0b7e7b5c855ef90eb9347727f",
+          "proposal_slot": "61",
+          "validator_index": "43",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0x852708823973045f7675a0aee4942d7ef2ead6850ef0d6b96b477a0b56a692f233cc86ec73f080e9bd708b8cd4305b0f13cc99d25ae2ce0292b492b6ef2dbad1121d5badc86f731b8e2969dedd5fafb38e944c17322d61ec82c999f772e9803d"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0xc9cd43f78c9da1ebf4d68384610a8d111c4a60e0b7e7b5c855ef90eb9347727f",
+          "proposal_slot": "62",
+          "validator_index": "17",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0xa15f9a3424e494969171e2f3a999d4540111980a94ece8d8b7c2716e2c351a2dd63c6801b10e1e8358f058d9250b406907bfad9814c67fa820a478fe1d3ba937edfcba50e06900ab9573cde4bc03e8d175e468b26c8a8688f36caaa74c23f3a2"
+      }
+    },
+    {
+      "PublishProposerPreferences": {
+        "message": {
+          "dependent_root": "0xc9cd43f78c9da1ebf4d68384610a8d111c4a60e0b7e7b5c855ef90eb9347727f",
+          "proposal_slot": "63",
+          "validator_index": "50",
+          "fee_recipient": "0x0000000000000000000000000000000000000000",
+          "target_gas_limit": "0"
+        },
+        "signature": "0x98337fa45b8abaa05d75a8e2ba4b79cfd2b47026ea84e483689165c7185234aeff37d62951208f6fc80bcaa2f2b9453f0f07932a892b4be7c98cfddc6eb7cfc5422ea35aae37c85a94076fcd11943d80ae955df770ef2592500d7a69d0557c05"
+      }
+    },
+    {
       "PublishBeaconBlock": {
         "message": {
           "slot": "48",
           "proposer_index": "2",
           "parent_root": "0xc9cd43f78c9da1ebf4d68384610a8d111c4a60e0b7e7b5c855ef90eb9347727f",
-          "state_root": "0x0448cea18acf299d74e9f73b247d21d3150222abb82c008b9a31cf8270ed6945",
+          "state_root": "0x0a92a91495553cff7a3bd3e2fe90bc60dd5334d9c78fd1e6d51842a1e1eb3e6e",
           "body": {
             "randao_reveal": "0xa87a0a49134aa4a503b09627f81544f181a928d4bc198d1c05f4222de1d3c6493a1a32690fd7623e1f451a880e1c8b1f0c31ec4c45d3b36abfaae790d9ce1d12a17156c86ae89ce17986be29ffd137b98b2f7dbdee8ceb6dd06f3aecf12effb1",
             "eth1_data": {
@@ -114,7 +294,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
             }
           }
         },
-        "signature": "0xaa18ccac09b7c4426c70318926ea02b78261e8870057ef2f6a84387358f5bacdffad85fc47e34c4237a83d6576e2276711a97d07efd507433ad749fd5172b52dcf9a3aa6937bd7cbec360471d052bf5dcaf93966927d5d5f3b64f7d337983eea"
+        "signature": "0x8fae07e97c7a4c05ccb5eb10e760fad060287324320adeb005e749895f7585f0f545a8f3198ecd8d16b2f7c4a3ea594017d61fe2a04479a6a4490c2a005d81cc287627c25497942192eaf2a5f249a9e40e869f221ed56ba413f42f87c80f22df"
       }
     }
   ]
