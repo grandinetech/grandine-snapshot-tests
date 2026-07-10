@@ -1,0 +1,2 @@
+GET /eth/v1/validator/payload_attestation_data?slot=32 HTTP/1.0
+
