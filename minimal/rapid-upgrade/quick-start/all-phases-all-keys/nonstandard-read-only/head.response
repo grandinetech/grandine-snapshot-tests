@@ -4,8 +4,8 @@ content-length: 205
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
-  "block_root": "0xa19576230f5d8204014d7c355054fe3cca39388e5fe927360ed66daeccecba7f",
-  "finalized_block_root": "0xdb6cfd97bc45e00aa01d13952f786248aa9766de3d58933e4d5c2e62f672adfa",
-  "finalized_slot": 48,
-  "slot": 64
+  "block_root": "0x36f689d398d0ccf7995a04153e40ede7dc3f7536fa5977bef6abe7c3f8ebc72b",
+  "finalized_block_root": "0x3467d090bba769bf6077c95ab409b4fcecf9c19b77157099ab16134bffe34d2b",
+  "finalized_slot": 40,
+  "slot": 56
 }
