@@ -1,7 +1,7 @@
 HTTP/1.0 200 OK
 content-type: application/json
 eth-consensus-version: gloas
-content-length: 3017
+content-length: 2435
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -10,7 +10,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "slot": "56",
       "proposer_index": "2",
       "parent_root": "0x886cacddd90361fd1e1aae27a735bdc0ea38aed6ca6716d8211f24aa9c372785",
-      "state_root": "0x4ffe5007cd3b9504beeb402c3e4588c1c79be41206b3393e3f435cdacc431ea8",
+      "state_root": "0x1c36b30baf50a3b1f6195620a9e32d9913addd8ca99847717e9d65a7e061f9ec",
       "body": {
         "randao_reveal": "0xb19a1c9b5827af0d0b996046fe4610cd960fba7f408df722a927f2e7d8bdd0be251840a74e12285f7893fe5ca2493a7a162ba5b3733d1835e547ae7e2e2f1c5f4562e38c3335d414c2bd75e5fe0114aa5b3774a06242117088dad5fff73c0b65",
         "eth1_data": {
@@ -21,26 +21,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
         "graffiti": "0x0000000000000000000000000000000000000000000000000000000000000000",
         "proposer_slashings": [],
         "attester_slashings": [],
-        "attestations": [
-          {
-            "aggregation_bits": "0xff01",
-            "data": {
-              "slot": "55",
-              "index": "0",
-              "beacon_block_root": "0x886cacddd90361fd1e1aae27a735bdc0ea38aed6ca6716d8211f24aa9c372785",
-              "source": {
-                "epoch": "5",
-                "root": "0x3467d090bba769bf6077c95ab409b4fcecf9c19b77157099ab16134bffe34d2b"
-              },
-              "target": {
-                "epoch": "6",
-                "root": "0xdb6cfd97bc45e00aa01d13952f786248aa9766de3d58933e4d5c2e62f672adfa"
-              }
-            },
-            "signature": "0xb502d19c5a7be3247fa409e99c2962f2951f91dab6857142690fa2665c0f546bc7efb52efe4e73e9b9d9b04ad2827620007964f5eb2e6fc9a2f70d8b3591929691973d038c1c207b547987b01b013c2b951df5294d04d4f77355890ca5b872bc",
-            "committee_bits": "0x03"
-          }
-        ],
+        "attestations": [],
         "deposits": [],
         "voluntary_exits": [],
         "sync_aggregate": {
@@ -75,7 +56,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
         }
       }
     },
-    "signature": "0x8ae4c3ae6d3e723b175e04a81ba829f1a9d68c97d2f235428d419707fc0555a905b57dd4b098a41f37e1ca097a7680ae036b93d21171661374a044e37e178b6589f5fdefac98802c1a485f5886aadad2e6f5236ebdafc68678ee221c635dac0d"
+    "signature": "0xa91aa42c62efa2cdb3ab692cf13f49c867f5061dc19ab3a4d1cbae9e0d7bea3e3c817ad8ccad2b0bad4a3519632e053e17dedb4021fe5cccd7e3fb21738ea3556b7533abe7906727ea80476762b81178e95d8aa2eb7361663aa3ab41b75e9c59"
   },
   "version": "gloas",
   "execution_optimistic": true,
