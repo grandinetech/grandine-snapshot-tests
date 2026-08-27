@@ -1,6 +1,6 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 3440
+content-length: 3442
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -10,7 +10,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "Slot": 41
     },
     {
-      "HeadChanged": "0x4f211468d44702b0d4f8b1f8d44a268986fb5e8173c713ce69d00147e1ebf9fe"
+      "HeadChanged": "0xdcd2fd77e337c69f0507ab566fe8ca680486945c43dc448f4a72a3a7ddd7507a"
     }
   ],
   "fc_to_sync": [],
@@ -22,7 +22,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
           "slot": "41",
           "proposer_index": "10",
           "parent_root": "0x59f3a94aa69cdf75a0aec8f48a7fe572bbb4fc9a44a56234b442f5bc1e40fa68",
-          "state_root": "0x6ed23e707b8c8fcc6766a98a9f9bbd00e1ba8c818ecfbdbb357a89ed520a4591",
+          "state_root": "0x7fdc728fd728b3fd24e570298c848c8c5a85e8a840640f1dad88bb468b827154",
           "body": {
             "randao_reveal": "0xb69acc4db3df96384a9e8a7a173368626c7ffc1154586ac2935c959fb1f9e6cd00f6bb2e2b1160d4d27b8bbfa12d78c10f40b00e1ba7d0bab5b0bc64212abe336bdaa60fc4ed2a95608fbcf03d46d5ac96fd32510804f87fb484314cd9e76934",
             "eth1_data": {
@@ -35,7 +35,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
             "attester_slashings": [],
             "attestations": [
               {
-                "aggregation_bits": "0x1f",
+                "aggregation_bits": "0xff01",
                 "data": {
                   "slot": "40",
                   "index": "0",
@@ -49,8 +49,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
                     "root": "0x59f3a94aa69cdf75a0aec8f48a7fe572bbb4fc9a44a56234b442f5bc1e40fa68"
                   }
                 },
-                "signature": "0x8ea923b2f4d15269935bdfc6ccba1bdfa1454d41321e722b1c904cf02663e6e49d0c14bc02fec64891e09f67bb580db702fc6d98540763df671b2f316c8739e35bc1748825e1290223f6e91ffe5759910a35057ce574ad0fe58dbb8f2e2e28f0",
-                "committee_bits": "0x02"
+                "signature": "0xa605f99b591ab44e788fcbfc106019b736848c79350a8628587ec9e77b1b263e338aff41a62ab9443c2b35fc6373de4a11aeb59ec7725148faccb30d38db8846874539b02b4ebb0fdd50701c7cbe8fd73dbe70ab00ad5e7fe7042648790d8500",
+                "committee_bits": "0x03"
               }
             ],
             "deposits": [],
@@ -87,7 +87,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
             }
           }
         },
-        "signature": "0x8f420947202dc4681086008129adb83f32e84087b21ce6d5dad927f30ca99a0ce19cac56a20fb72c5311066b644489bf1696c3b3fc01aa6b80f7e61a52db35e89da9644df5835b7ecb467f66bfe81b8f948c421ba981bda47bdfd810ef592175"
+        "signature": "0x929bb357c8df1fca9a26b961cced67ecf7b56acfaf0579a7bb4514c8cb8b708bdb207085d9ace184913ef0a336e75b1900ffc477c7a8af992b1a545753e4813f122ee2f4ab3db6dab3be7d4e29f46d66241380edd50d2d358953e546b8262217"
       }
     }
   ]
