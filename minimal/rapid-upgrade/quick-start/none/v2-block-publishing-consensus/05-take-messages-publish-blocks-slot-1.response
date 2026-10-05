@@ -1,11 +1,22 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 87
+content-length: 215
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
   "api_to_p2p": [],
-  "fc_to_p2p": [],
+  "fc_to_p2p": [
+    {
+      "IgnoreWithReason": [
+        null,
+        {
+          "BlockIgnored": {
+            "block_root": "0x3811a8a309354ec724e47682df5211500a58eec40bdb1688ccedc47995b22d22"
+          }
+        }
+      ]
+    }
+  ],
   "fc_to_sync": [],
   "pool_to_p2p": [],
   "validator_to_p2p": []
