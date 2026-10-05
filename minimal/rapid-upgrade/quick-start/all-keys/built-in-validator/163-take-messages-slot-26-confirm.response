@@ -1,6 +1,6 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 87
+content-length: 4822
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -8,5 +8,182 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
   "fc_to_p2p": [],
   "fc_to_sync": [],
   "pool_to_p2p": [],
-  "validator_to_p2p": []
+  "validator_to_p2p": [
+    {
+      "PublishSingularAttestation": [
+        {
+          "aggregation_bits": "0x11",
+          "data": {
+            "slot": "26",
+            "index": "0",
+            "beacon_block_root": "0x9fc4f518e340c8ae5fcc102bd7cbd54537cc85f782f7091645f2d750fa94391b",
+            "source": {
+              "epoch": "2",
+              "root": "0x6b1ed7cd04e14b433b4d21a0ccbf72cfed643fe3eaad5d73f0f89bb4182b8833"
+            },
+            "target": {
+              "epoch": "3",
+              "root": "0x4f95ae626dde454d33eced65ad4eeb87aa8418ce782f14d1eb8aa6d432813c0f"
+            }
+          },
+          "signature": "0xb9418dc32a1603b09dbdc7332e7e4e973efb1e2f9af59b4cfc537063f1d45546dfdd0595d0c28637d6dfe53149871c5b12d1e3e081571bd12be8acd27fa6658007c182be4975f9463c46d61e53868b0135cf2091fbc36495c1fa9bd8b37f0603"
+        },
+        4
+      ]
+    },
+    {
+      "PublishSingularAttestation": [
+        {
+          "aggregation_bits": "0x12",
+          "data": {
+            "slot": "26",
+            "index": "0",
+            "beacon_block_root": "0x9fc4f518e340c8ae5fcc102bd7cbd54537cc85f782f7091645f2d750fa94391b",
+            "source": {
+              "epoch": "2",
+              "root": "0x6b1ed7cd04e14b433b4d21a0ccbf72cfed643fe3eaad5d73f0f89bb4182b8833"
+            },
+            "target": {
+              "epoch": "3",
+              "root": "0x4f95ae626dde454d33eced65ad4eeb87aa8418ce782f14d1eb8aa6d432813c0f"
+            }
+          },
+          "signature": "0xb331a5acfa2dab721d6d727dc096ef70fc6803dcc427f515a83edc22063351da047aca03c892e48250e14a0609c1a6801996907804b1180c3aa24106865e64cdd8d86e5dbf6711d362a727df8dcc9c8ca8fbd2ffabdaaca6a2890d5548d2ef61"
+        },
+        4
+      ]
+    },
+    {
+      "PublishSingularAttestation": [
+        {
+          "aggregation_bits": "0x14",
+          "data": {
+            "slot": "26",
+            "index": "0",
+            "beacon_block_root": "0x9fc4f518e340c8ae5fcc102bd7cbd54537cc85f782f7091645f2d750fa94391b",
+            "source": {
+              "epoch": "2",
+              "root": "0x6b1ed7cd04e14b433b4d21a0ccbf72cfed643fe3eaad5d73f0f89bb4182b8833"
+            },
+            "target": {
+              "epoch": "3",
+              "root": "0x4f95ae626dde454d33eced65ad4eeb87aa8418ce782f14d1eb8aa6d432813c0f"
+            }
+          },
+          "signature": "0x8c9263ae947462e9379ac8daa1ab716f12643259a64f20cad9e524a19cfc3b46babba2b0af0a5af23963ea6b9e89f92c098313a9ee58cfc3ea06d8096faf85e163e9ccf0b48bdf1d4361df993165a92ae38c7f02073daffaacac04e15bd6418a"
+        },
+        4
+      ]
+    },
+    {
+      "PublishSingularAttestation": [
+        {
+          "aggregation_bits": "0x18",
+          "data": {
+            "slot": "26",
+            "index": "0",
+            "beacon_block_root": "0x9fc4f518e340c8ae5fcc102bd7cbd54537cc85f782f7091645f2d750fa94391b",
+            "source": {
+              "epoch": "2",
+              "root": "0x6b1ed7cd04e14b433b4d21a0ccbf72cfed643fe3eaad5d73f0f89bb4182b8833"
+            },
+            "target": {
+              "epoch": "3",
+              "root": "0x4f95ae626dde454d33eced65ad4eeb87aa8418ce782f14d1eb8aa6d432813c0f"
+            }
+          },
+          "signature": "0x82d39dc1252ce330f6fe59932d42800c1d637aabdf8dcb018980faaf70176ebc9e0e413ed291372acd598c28885901570b2fa573e2a6848c7a187fdeb303e4b4ac414f3c3f10accaaf2282897a415b0f34d2aaec0d6ecc83118d8ec02486c8fe"
+        },
+        4
+      ]
+    },
+    {
+      "PublishSingularAttestation": [
+        {
+          "aggregation_bits": "0x11",
+          "data": {
+            "slot": "26",
+            "index": "1",
+            "beacon_block_root": "0x9fc4f518e340c8ae5fcc102bd7cbd54537cc85f782f7091645f2d750fa94391b",
+            "source": {
+              "epoch": "2",
+              "root": "0x6b1ed7cd04e14b433b4d21a0ccbf72cfed643fe3eaad5d73f0f89bb4182b8833"
+            },
+            "target": {
+              "epoch": "3",
+              "root": "0x4f95ae626dde454d33eced65ad4eeb87aa8418ce782f14d1eb8aa6d432813c0f"
+            }
+          },
+          "signature": "0xb6f3ee164dec854074d44931702203dd4a4c9089caf6374b069d5adcbe61e25355e9ca93ca3f0f999007deeb12e34db0130442d8311ce605bf44f119183eeb8103e77e37357c1e3f6f2c5496865fe2ea25d8adbda07157f51cf61aeb0023af4d"
+        },
+        5
+      ]
+    },
+    {
+      "PublishSingularAttestation": [
+        {
+          "aggregation_bits": "0x12",
+          "data": {
+            "slot": "26",
+            "index": "1",
+            "beacon_block_root": "0x9fc4f518e340c8ae5fcc102bd7cbd54537cc85f782f7091645f2d750fa94391b",
+            "source": {
+              "epoch": "2",
+              "root": "0x6b1ed7cd04e14b433b4d21a0ccbf72cfed643fe3eaad5d73f0f89bb4182b8833"
+            },
+            "target": {
+              "epoch": "3",
+              "root": "0x4f95ae626dde454d33eced65ad4eeb87aa8418ce782f14d1eb8aa6d432813c0f"
+            }
+          },
+          "signature": "0xa77842ffddd1093391d58524ee74d8e5fa02cbb816314c43d9fa7ed334dcc1d436a92161f0788ce1a7c0d3c2eb8865e40d2c5ce609dbea5f845b268b3af2cfb25011d823ae4a74d673ec695b713028d90aeabddc45f72c1a952637129a97a5bb"
+        },
+        5
+      ]
+    },
+    {
+      "PublishSingularAttestation": [
+        {
+          "aggregation_bits": "0x14",
+          "data": {
+            "slot": "26",
+            "index": "1",
+            "beacon_block_root": "0x9fc4f518e340c8ae5fcc102bd7cbd54537cc85f782f7091645f2d750fa94391b",
+            "source": {
+              "epoch": "2",
+              "root": "0x6b1ed7cd04e14b433b4d21a0ccbf72cfed643fe3eaad5d73f0f89bb4182b8833"
+            },
+            "target": {
+              "epoch": "3",
+              "root": "0x4f95ae626dde454d33eced65ad4eeb87aa8418ce782f14d1eb8aa6d432813c0f"
+            }
+          },
+          "signature": "0x94fbe4e8ecd83f23ee143b9e0bc24b394df7347bbcc990c437dd69907f6bbbec4ad554414cb36798cdd404ab12c296f001e7438c1a1b6b91244b4b0448d5c66d747c3bc9f1d2b80ef7df6e6362b1c1b9806ea11f44b2d59426f99281bbb2ddd6"
+        },
+        5
+      ]
+    },
+    {
+      "PublishSingularAttestation": [
+        {
+          "aggregation_bits": "0x18",
+          "data": {
+            "slot": "26",
+            "index": "1",
+            "beacon_block_root": "0x9fc4f518e340c8ae5fcc102bd7cbd54537cc85f782f7091645f2d750fa94391b",
+            "source": {
+              "epoch": "2",
+              "root": "0x6b1ed7cd04e14b433b4d21a0ccbf72cfed643fe3eaad5d73f0f89bb4182b8833"
+            },
+            "target": {
+              "epoch": "3",
+              "root": "0x4f95ae626dde454d33eced65ad4eeb87aa8418ce782f14d1eb8aa6d432813c0f"
+            }
+          },
+          "signature": "0xb694fef829fd60a1b19682b7ea043603425eba1945e002021750af68f9863b3f4ba22ab03fb75f0507b8dd3fa18ded6d1372c36ef97fb4dc43dc70c1fa1cc9adf5573b9e83a2f1cc4f4e53affc4ba9302cad5bd543f795c94ba3b8e91af02726"
+        },
+        5
+      ]
+    }
+  ]
 }
