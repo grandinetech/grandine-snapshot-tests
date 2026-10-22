@@ -1,0 +1,92 @@
+HTTP/1.0 200 OK
+content-type: application/json
+content-length: 1089
+date: Thu, 01 Jan 1970 00:00:00 GMT
+
+{
+  "data": {
+    "ideal_rewards": [
+      {
+        "effective_balance": "32000000000",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      }
+    ],
+    "total_rewards": [
+      {
+        "validator_index": "0",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "1",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "2",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "3",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "1000",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "10000",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "100000",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "200000",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "250000",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "260000",
+        "head": "4459",
+        "target": "8608",
+        "source": "4635",
+        "inactivity": "0"
+      }
+    ]
+  },
+  "execution_optimistic": false,
+  "finalized": false
+}

@@ -1,0 +1,43 @@
+HTTP/1.0 200 OK
+content-type: application/json
+content-length: 477
+date: Thu, 01 Jan 1970 00:00:00 GMT
+
+{
+  "data": {
+    "ideal_rewards": [
+      {
+        "effective_balance": "32000000000",
+        "head": "273916",
+        "target": "508701",
+        "source": "273916",
+        "inactivity": "0"
+      }
+    ],
+    "total_rewards": [
+      {
+        "validator_index": "0",
+        "head": "273916",
+        "target": "508701",
+        "source": "273916",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "1",
+        "head": "273916",
+        "target": "508701",
+        "source": "273916",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "63",
+        "head": "273916",
+        "target": "508701",
+        "source": "273916",
+        "inactivity": "0"
+      }
+    ]
+  },
+  "execution_optimistic": true,
+  "finalized": false
+}

@@ -1,0 +1,103 @@
+HTTP/1.0 200 OK
+content-type: application/json
+content-length: 1398
+date: Thu, 01 Jan 1970 00:00:00 GMT
+
+{
+  "data": {
+    "ideal_rewards": [
+      {
+        "effective_balance": "32000000000",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "17256",
+        "inactivity": "0"
+      }
+    ],
+    "total_rewards": [
+      {
+        "validator_index": "0",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "8628",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "1",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "17256",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "2",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "17256",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "3",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "17256",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "100",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "17256",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "1000",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "17256",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "5000",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "8628",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "10000",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "17256",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "15000",
+        "head": "-19721",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "4314",
+        "inactivity": "0"
+      },
+      {
+        "validator_index": "20000",
+        "head": "16767",
+        "target": "16824",
+        "source": "16824",
+        "inclusion_delay": "17256",
+        "inactivity": "0"
+      }
+    ]
+  },
+  "execution_optimistic": false,
+  "finalized": true
+}
