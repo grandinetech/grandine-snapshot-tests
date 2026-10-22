@@ -1,0 +1,9 @@
+HTTP/1.0 400 Bad Request
+content-type: application/json
+content-length: 83
+date: Thu, 01 Jan 1970 00:00:00 GMT
+
+{
+  "code": 400,
+  "message": "rewards for epoch 3 are not final until the end of epoch 4"
+}

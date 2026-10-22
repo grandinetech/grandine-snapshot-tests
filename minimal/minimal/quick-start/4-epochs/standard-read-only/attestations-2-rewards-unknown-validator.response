@@ -1,0 +1,31 @@
+HTTP/1.0 200 OK
+content-type: application/json
+content-length: 345
+date: Thu, 01 Jan 1970 00:00:00 GMT
+
+{
+  "data": {
+    "ideal_rewards": [
+      {
+        "effective_balance": "32000000000",
+        "head": "357771",
+        "target": "357771",
+        "source": "357771",
+        "inclusion_delay": "313050",
+        "inactivity": "0"
+      }
+    ],
+    "total_rewards": [
+      {
+        "validator_index": "0",
+        "head": "357771",
+        "target": "357771",
+        "source": "357771",
+        "inclusion_delay": "313050",
+        "inactivity": "0"
+      }
+    ]
+  },
+  "execution_optimistic": false,
+  "finalized": false
+}

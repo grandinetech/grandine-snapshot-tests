@@ -1,0 +1,5 @@
+POST /eth/v1/beacon/rewards/attestations/2 HTTP/1.0
+Content-Type: application/json
+Content-Length: 111
+
+["0","0xb89bebc699769726a318c8e9971bd3171297c61aea4a6578a7a4f94b547dcba5bac16a89108b6b6a1fe3695d1a874a0b","63"]
