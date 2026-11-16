@@ -1,0 +1,2 @@
+GET /eth/v1/beacon/headers?parent_root=0x6a56b94ac2f421d91eba7b80c407a4de8e285b0cc8cc6c47e5cf68010fbf2ea2 HTTP/1.0
+
