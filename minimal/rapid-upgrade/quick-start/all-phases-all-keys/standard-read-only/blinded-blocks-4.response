@@ -1,0 +1,69 @@
+HTTP/1.0 200 OK
+content-type: application/json
+eth-consensus-version: phase0
+content-length: 2209
+date: Thu, 01 Jan 1970 00:00:00 GMT
+
+{
+  "data": {
+    "message": {
+      "slot": "4",
+      "proposer_index": "47",
+      "parent_root": "0xfce27875556bab5e7dd5ec04cb4326ab00ee0bf35fdd641f886d156c475b774b",
+      "state_root": "0xdd55b3939ed51dbaee5c58d0d695385140c3f15614a6057036fce38389515aab",
+      "body": {
+        "randao_reveal": "0xa9d054abca2c27443a614c84123ba7cd8c385b7e14045243b56c60d0ea4989b7728bbd09b26d4ae807f281751541ccb7164dde3d1540b5c4e020e143991775e0b5430c3ebc82014b0c9ce7ef6e0b923628bbf8cb03230161226f0e16a85ce56a",
+        "eth1_data": {
+          "deposit_root": "0x6141b76179b67d7849f34a22d0e529729fb274bbe81374c41623373b649cc63b",
+          "deposit_count": "64",
+          "block_hash": "0x4242424242424242424242424242424242424242424242424242424242424242"
+        },
+        "graffiti": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "proposer_slashings": [],
+        "attester_slashings": [],
+        "attestations": [
+          {
+            "aggregation_bits": "0x1f",
+            "data": {
+              "slot": "3",
+              "index": "0",
+              "beacon_block_root": "0xfce27875556bab5e7dd5ec04cb4326ab00ee0bf35fdd641f886d156c475b774b",
+              "source": {
+                "epoch": "0",
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "target": {
+                "epoch": "0",
+                "root": "0xc9a3323b6c59a7374e60501768ff4b47e4603a837c9ed42634bb5a6d6be58b6e"
+              }
+            },
+            "signature": "0x96dbc9a8e19b008edbf93eb4ed291d0aa6953d7f96287ffffd1616816177b07b3446055b2ca0c0faf93ea629b762d93b15164d45a7ec5d500f038ba69d3cc154fdd20c68d1c9c92c5997b369dc2345e553539504a7687c8ab6fa3233fbd86e86"
+          },
+          {
+            "aggregation_bits": "0x1f",
+            "data": {
+              "slot": "3",
+              "index": "1",
+              "beacon_block_root": "0xfce27875556bab5e7dd5ec04cb4326ab00ee0bf35fdd641f886d156c475b774b",
+              "source": {
+                "epoch": "0",
+                "root": "0x0000000000000000000000000000000000000000000000000000000000000000"
+              },
+              "target": {
+                "epoch": "0",
+                "root": "0xc9a3323b6c59a7374e60501768ff4b47e4603a837c9ed42634bb5a6d6be58b6e"
+              }
+            },
+            "signature": "0xa7d5209470087b14a315e14b7b2c42a3f8e8451af75c2d7884ba6a92904620964ff9914193306249aaf4f5c76afb7f3b0279d7c1db1fc34a1da55caf01e23cca6b0bd659dad56a6d72d3a413a9f02f151ba7e1e9a9835d49a07f9badb317cd2b"
+          }
+        ],
+        "deposits": [],
+        "voluntary_exits": []
+      }
+    },
+    "signature": "0x97c9632faa031ddb10e8dc7836aca41552813f08c8450b8b89bee900339df10156bfcebd224a26e797fcf6dc312b66490836cf7bac1c4193efe7e6aed46b4e1d2957ef3048d371b8bba23cbba28c9aaa898e5b807d6e05f68fa551713e53370a"
+  },
+  "version": "phase0",
+  "execution_optimistic": false,
+  "finalized": true
+}
