@@ -1,12 +1,9 @@
-HTTP/1.0 200 OK
+HTTP/1.0 404 Not Found
 content-type: application/json
-content-length: 135
+content-length: 40
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
-  "data": {
-    "randao": "0x4242424242424242424242424242424242424242424242424242424242424242"
-  },
-  "execution_optimistic": false,
-  "finalized": false
+  "code": 404,
+  "message": "state not found"
 }
