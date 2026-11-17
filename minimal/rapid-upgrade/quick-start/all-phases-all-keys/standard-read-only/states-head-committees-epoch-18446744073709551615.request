@@ -1,0 +1,2 @@
+GET /eth/v1/beacon/states/head/committees?epoch=18446744073709551615 HTTP/1.0
+
