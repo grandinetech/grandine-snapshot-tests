@@ -1,0 +1,2 @@
+GET /eth/v1/beacon/states/head/committees?epoch=10 HTTP/1.0
+
