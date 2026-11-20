@@ -1,0 +1,2 @@
+GET /eth/v1/beacon/states/0x34c5dd959cdc1e5747f6084b6de8ab2dd6954f95b85d7bc6a0ef1c10ffddf658/root HTTP/1.0
+
