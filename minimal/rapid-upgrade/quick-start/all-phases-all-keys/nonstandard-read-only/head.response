@@ -4,7 +4,7 @@ content-length: 205
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
-  "block_root": "0xbd4c07fee07639b4e4fdc30cca29fa81d8d4a6c34d8dfd26bc411295c3b0fe6e",
+  "block_root": "0x4b9d2b292dcdc57acaf384408fae3f488da6b54ccecb3de4764a625e520b1113",
   "finalized_block_root": "0x3467d090bba769bf6077c95ab409b4fcecf9c19b77157099ab16134bffe34d2b",
   "finalized_slot": 40,
   "slot": 64

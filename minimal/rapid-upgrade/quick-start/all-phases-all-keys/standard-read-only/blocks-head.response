@@ -9,8 +9,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "message": {
       "slot": "64",
       "proposer_index": "54",
-      "parent_root": "0x51c0c978918eb5251b24a867dd2b58bda380a689a7904a29a76e3e7f18cdb257",
-      "state_root": "0x878afa6a7cdeeaa29c619c20d70d0901f5a7cd6b0dfd060572230d948dfce3f2",
+      "parent_root": "0x896edb5bcf2e555deefbfff593d807039cbf95b258ea706a40bed51338ae95a7",
+      "state_root": "0x89b81b0b3a5bfda05bc91a1793f83dd16351986d516ce25faf7c663f5f241068",
       "body": {
         "randao_reveal": "0xb5c6b4b7d05f9e8ae27acfbe654a34af05bb1395c59fb54bee6b7bc18b5889c3ab9ebac12e6eebdfb9fe80e5355dad6c0c1b852177bfad2665087fcc7ef8dd02b58c6c2748d39d79eeddac810401bcb63e9a45cfbcb04832b154eb93d208db85",
         "eth1_data": {
@@ -26,13 +26,13 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
         "voluntary_exits": [],
         "sync_aggregate": {
           "sync_committee_bits": "0xffffffff",
-          "sync_committee_signature": "0x918ab0d802bb51da7e579821ed25b521235612c3e8e0c1a2414791ca8c3551fbd5e1beb08d29380ac48c98723b29753119983ab9406194c2b53663dd138706f6b60365132e6a953108aa156e2f04da6bcfee0494e63f07ed863195fbb75b3397"
+          "sync_committee_signature": "0x8452af90796681d0f1f9dfe504367fddd7d50898091db1d17a488d0887aae1c21994ccaf5b87620204c600b8554c127203b6d9d2c1c289b3998015dba4a18ac573efc41ef94b1a9b04caf6d49da8e8a205af812b67fa5ccc42f09b0e580ac659"
         },
         "bls_to_execution_changes": [],
         "signed_execution_payload_bid": {
           "message": {
             "parent_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "parent_block_root": "0x51c0c978918eb5251b24a867dd2b58bda380a689a7904a29a76e3e7f18cdb257",
+            "parent_block_root": "0x896edb5bcf2e555deefbfff593d807039cbf95b258ea706a40bed51338ae95a7",
             "block_hash": "0x0000000000000000000000000000000000000000000000000000000000000040",
             "prev_randao": "0x4882aa25e92c75b9f7fc8c86f246ca24de49c43e987f48db9d9ca658cd0aff4f",
             "fee_recipient": "0x0000000000000000000000000000000000000000",
@@ -56,7 +56,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
         }
       }
     },
-    "signature": "0x9185447c5f51f414c2f58a5e4200273255db3595752adacd6ee9195e3c09836203efab4a49a8db9759f5ea7bcc00e2b617a97b26a1e16941373816bc414c3b2a1d4470f0ec33f08d9dc46f41809ee250e542361e4cde885c8b781c783d1d1881"
+    "signature": "0xb97e3f609856862b2842cc3941efcc05bc4a3c6f9f60c5fdb8d0439a3397470622d500404c24e15b4dc1dfe981846900058b9101d4504a6d77ac60055558fcc2d87b3ec07571325c7f1e49da6e76fc64eab963505bf8cb8d8d676091ff9ef72b"
   },
   "version": "gloas",
   "execution_optimistic": true,

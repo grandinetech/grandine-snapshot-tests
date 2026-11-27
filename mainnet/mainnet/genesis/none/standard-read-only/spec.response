@@ -1,6 +1,6 @@
 HTTP/1.0 200 OK
 content-type: application/json
-content-length: 7899
+content-length: 7928
 date: Thu, 01 Jan 1970 00:00:00 GMT
 
 {
@@ -160,6 +160,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "BLOB_SIDECAR_SUBNET_COUNT_ELECTRA": "9",
     "MAX_REQUEST_BLOB_SIDECARS_FULU": "1536",
     "MAX_REQUEST_PAYLOADS": "128",
+    "MIN_TRANSACTION_GAS": "4096",
     "BLOB_SCHEDULE": [
       {
         "EPOCH": "412672",

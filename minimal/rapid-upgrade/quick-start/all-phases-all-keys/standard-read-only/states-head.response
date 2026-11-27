@@ -17,9 +17,9 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "latest_block_header": {
       "slot": "64",
       "proposer_index": "54",
-      "parent_root": "0x51c0c978918eb5251b24a867dd2b58bda380a689a7904a29a76e3e7f18cdb257",
+      "parent_root": "0x896edb5bcf2e555deefbfff593d807039cbf95b258ea706a40bed51338ae95a7",
       "state_root": "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "body_root": "0x290e4df5662db9e3f779bc8e247bbb7cbc6097fbef5895f85c1fad0facf9c245"
+      "body_root": "0xe3371686b43e964a1e2064b2957d51f2d1a92688d7ab42d6c049fbf9bbfcdffa"
     },
     "block_roots": [
       "0xc9a3323b6c59a7374e60501768ff4b47e4603a837c9ed42634bb5a6d6be58b6e",
@@ -78,14 +78,14 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "0x11855eb2e1285f941c4b710cf47dc15895086dcd00d06a9037c4e7efe8a32010",
       "0x04827fbf75160b1b1128ac7b0be015230926de3cfe65a63175cb3218f6739b5d",
       "0x886cacddd90361fd1e1aae27a735bdc0ea38aed6ca6716d8211f24aa9c372785",
-      "0x8065ae04ba98e5e91d7ead56555c8bf725462a6ea917ccf88c470c5ecab0a34b",
-      "0x98ec44af4925b35fb85bbc73758909208e8f0ebd2ea60894ea5b4b073e16ea8b",
-      "0x01ba53da4ee366e3987c00d8076e3198eee2a1dbe03ade4fd014bbc4b13955a8",
-      "0x74c8bf1d8ea536b28530534e2ff0319917163b05b6f13155bda820396b053eb7",
-      "0x2a70fea1d7b9eddcca6e5b91aac2b31135a54b90ff2adcd16eda8903376c04f4",
-      "0x34804844b5e7277579a820f405a2b6983b1dac307966d9e9aa3ad13ae97a86c4",
-      "0x6bfc993b6453dff71d33a1a6061c4eb801087ff9f3b8d153da532a1eee5d5a10",
-      "0x51c0c978918eb5251b24a867dd2b58bda380a689a7904a29a76e3e7f18cdb257"
+      "0x3b93e1ed11d665279cb7b6f98d977a704cbc6f4ae0bcf556e935a2f846e78ba3",
+      "0x0eda27d346723cc135d8c19708e4f61687165ac43cc186d97d0fda587fa5ca81",
+      "0xa8b1c80c3f1283a9c20331fb89f68060a52851ab387f829dc59b2b5124ee0875",
+      "0x9d847f1b33544c7e930ee8858dc58ab49bd6a57f36e86cb0e4a4a29981d09bdf",
+      "0x85ec86d2da60b7b823572c16b8d1cb42a527ce0e9dae0c463878a7709b9ecc0b",
+      "0x86224d37afe940cc2a2636f440bb4f9e80f1adb17935e96f32aa0a52af2b1dd0",
+      "0xd8fe7c5d718fd0399460e45bf28c2c69ff07d74a63bb0e4e9c50f6bea2e7a3df",
+      "0x896edb5bcf2e555deefbfff593d807039cbf95b258ea706a40bed51338ae95a7"
     ],
     "state_roots": [
       "0xa2544f0d7987e40315335e67f66ce6d275a9b69134ef03ab7fa850a271030944",
@@ -144,14 +144,14 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
       "0xeb306a83d22fc34d0942e38e86e3c0cab7e946c70e9a9d1a54717e2af54da5d2",
       "0x769f863136b374b8db75e68cb9b99d6cb6fb6a959514b8c5e11efba2f50c91a2",
       "0x6c8157835573742f8d19ec6d3796078683851f4e1fdb8e5755b18bead6519be0",
-      "0x5a7366faf6e052173164533de17295d1ee5c27c2be1776c1898285f5955fabb5",
-      "0xdc682bf65ea0b5991a9647bb1385b9c39f561526fc8e607a9cacc7ce16817a31",
-      "0x80a0e891827f2bbcec9e0fd18d3ce65bfce8a4e575623dc1458a7d83e983f95d",
-      "0x212bbebc9514de8495780630ae127be4fad60731687ed0949b39acaf23a82808",
-      "0x76a332f8ea0d26bc0f0112c50eab61a22d1b4280f3e1d31f1e592b757a9a679f",
-      "0x1666c6235a3a353248e4584e26aa4a2be4c9f3a13d77e08fd46639967f4e53bb",
-      "0x8ea6d86cf4358fe00739dedeb417a9fdb35126178ecfff0a9bf9dca33b9cd6f6",
-      "0x3ff184758ab6857115aac859c5a2d240a2fb15129856b0047ade3c076e83c708"
+      "0x78fe6fc0108fa7921295039e4befba4fb867229252acebdb983142baca04a6e4",
+      "0x101b0f29b03c5e272c86faab5100fa0decc7f7a8ca2249d422fc6469cf055857",
+      "0xf50ee47b9e9db32b65768c97f7d7e333d86d9c9f897a949bd8b03092497c9f92",
+      "0x881aca96ac0e78eb64c6ef51006d9812c0d721ffafa395f5cb1e8bd615b0093f",
+      "0x725a5f10cba0397dfd816297a5d0bb94cbd8b57865f2d042ea7602ea793bd141",
+      "0x7dd91767da17875e13d2b4438e93137a343ef8405dde9415760cca3f29615f00",
+      "0x80ca5536c56e9722a5309f5910d893ba2c3970dac519ad79771c39e3c7b3a1ea",
+      "0xc3cfa37c2a251226c3acf46a1d2ccca711d9adc2804e05ffc0b4e7d2fbc3aab4"
     ],
     "historical_roots": [],
     "eth1_data": {
@@ -1297,8 +1297,8 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "next_withdrawal_validator_index": "16",
     "historical_summaries": [
       {
-        "block_summary_root": "0x3938a5299f9880d5881344cd087465c154380089728bd92fe2c62907e66dd4a5",
-        "state_summary_root": "0x3bf9ef8b6a5c50039b9ec1dfd5338b91c0af5083303f62313796a9c68e2f65cc"
+        "block_summary_root": "0xb90f29b2380a07e754e60e2390dbb03dc2b7a44dfb49d51d1045301380856b80",
+        "state_summary_root": "0x3a99ec841a140798e16dafb2e6d7d4348140828e10d1ca628f70aadb5c29076c"
       }
     ],
     "deposit_requests_start_index": "18446744073709551615",
@@ -1330,7 +1330,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     ],
     "builders": [],
     "next_withdrawal_builder_index": "0",
-    "execution_payload_availability": "0xfeffffffffffff01",
+    "execution_payload_availability": "0xfeffffffffffff00",
     "builder_pending_payments": [
       {
         "weight": "0",
@@ -1480,7 +1480,7 @@ date: Thu, 01 Jan 1970 00:00:00 GMT
     "builder_pending_withdrawals": [],
     "latest_execution_payload_bid": {
       "parent_block_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-      "parent_block_root": "0x51c0c978918eb5251b24a867dd2b58bda380a689a7904a29a76e3e7f18cdb257",
+      "parent_block_root": "0x896edb5bcf2e555deefbfff593d807039cbf95b258ea706a40bed51338ae95a7",
       "block_hash": "0x0000000000000000000000000000000000000000000000000000000000000040",
       "prev_randao": "0x4882aa25e92c75b9f7fc8c86f246ca24de49c43e987f48db9d9ca658cd0aff4f",
       "fee_recipient": "0x0000000000000000000000000000000000000000",
